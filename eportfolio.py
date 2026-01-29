@@ -455,7 +455,7 @@ with left:
         <div class="timeline">
 
           <div class="t-item work">
-            <div class="t-date">Oct 2023 to Jul 2025</div>
+            <div class="t-date">Oct 2023 - Jul 2025</div>
             <div class="t-role">Data Science & Advanced Analytics</div>
             <div class="t-org">Titan Company Limited</div>
             <p class="t-desc">
@@ -520,10 +520,10 @@ with left:
 
           <div class="t-item work">
             <div class="t-date">Apr 2023 - Sep 2023</div>
-            <div class="t-role">Young Leadership Program</div>
+            <div class="t-role">Merchandising</div>
             <div class="t-org">Titan Company Limited</div>
             <p class="t-desc">
-              - Led product attribution and optimized inventory by demographic segments, that resulted 29% annual growth in wedding sales.
+              - Led product attribution and optimized inventory by demographic segments, which resulted 29% annual growth in wedding sales.
             </p>
             <p class="t-desc">
               - Analyzed sales & empowered product team with data-driven insights for introducing new products.
@@ -533,9 +533,31 @@ with left:
               <span class="t-tag">Sales Analysis</span>
               <span class="t-tag">Inventory Optimization</span>
               <span class="t-tag">Market Research</span>
-              <span class="t-tag">Leadership</span>
             </div>
           </div>
+
+          <div class="t-item work">
+            <div class="t-date">Apr 2023 - Mar 2024</div>
+            <div class="t-role">Young Leadership Program</div>
+            <div class="t-org">Titan Company Limited</div>
+            <p class="t-desc">
+              - Identified amongst the top 12% of the company’s high-performing and emerging young talent with leadership potential. 
+            </p>
+            <p class="t-desc">
+              - Fully sponsored with the Post Graduate Certificate in Business Management from XLRI.
+            </p>
+            <p class="t-desc">
+              - Empowered the senior leadership of Jewelry Merchandising  and Digital Analytics Function with data-based decision support systems for several intriguing business challenges.
+            </p>            
+            <div class="t-tags">
+              <span class="t-tag">Leadership</span>
+              <span class="t-tag">Business Management</span>
+              <span class="t-tag">Self-Reflection</span>
+              <span class="t-tag">Merchandising</span>
+              <span class="t-tag">Dashboarding</span>
+            </div>
+          </div>
+
 
           <div class="t-item work">
             <div class="t-date">Jul 2019 - Mar 2023</div>
@@ -551,13 +573,13 @@ with left:
               - Fostered innovation through extensive market research and implementation of SCAMPER technique, for a 1Bn watch market and introduced the first-ever branded skeletal quartz watch that enabled growth of >2K price band portfolio by 170%.
             </p>
             <p class="t-desc">
-              - Empowered Top leadership with effective visual insights by analyzing Cost vs. Procurement matrix, for optimal decision making.
+              - Empowered Top leadership with effective visual insights by analyzing the cost vs. Procurement matrix for optimal decision-making.
             </p>
             <p class="t-desc">
               - Reduced the lead time of proto-dial manufacturing from 45 to 10 days (77 %) by causal inferencing of manufacturing techniques that secured 13th rank in the National level Kaizen competition.
             </p>
             <p class="t-desc">
-              - Established Lead time and product attributes correlation matrix enabling watch production without prototype approval.
+              - Established Lead time and product attributes correlation matrix, enabling watch production without prototype approval.
             </p>
             <div class="t-tags">
               <span class="t-tag">Product analytics</span>
