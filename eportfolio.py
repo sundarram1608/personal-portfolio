@@ -76,6 +76,7 @@ st.markdown(
                         }
               .top-nav-links a:hover{
                                 text-decoration: none;
+                                color: #f5c542;
                               }
 
               /* Prevent anchor jumps from hiding headings under the fixed nav */
