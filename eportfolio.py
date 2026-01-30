@@ -5,6 +5,16 @@ import streamlit as st
 # -----------------------------
 st.set_page_config(page_title="Sundar Ram Subramanian: Portfolio", layout="wide")
 
+
+
+st.markdown(
+    """
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    """,
+    unsafe_allow_html=True,
+)
+
+
 # -----------------------------
 # HEADER NAVIGATION
 # -----------------------------
