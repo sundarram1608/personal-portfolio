@@ -324,6 +324,74 @@ st.markdown(
                               /* grey tone */
                                 filter: brightness(0);                              }
 
+    /* ---------- MOBILE RESPONSIVE OVERRIDES ---------- */
+    @media (max-width: 768px){
+
+      /* Reduce global padding and avoid horizontal scroll */
+      html, body { overflow-x: hidden; }
+      .block-container { padding-top: 4.2rem !important; padding-left: 1rem !important; padding-right: 1rem !important; }
+
+      /* Nav: stack, reduce margins, allow wrap */
+      .top-nav-wrap{
+        padding: 8px 10px !important;
+        flex-wrap: wrap !important;
+        gap: 8px !important;
+      }
+      .top-nav-brand{
+        width: 100% !important;
+        margin-left: 0 !important;
+        justify-content: center !important;
+        align-items: center !important;
+      }
+      .top-nav-links{
+        width: 100% !important;
+        margin-right: 0 !important;
+        justify-content: center !important;
+        flex-wrap: wrap !important;
+        gap: 12px !important;
+        font-size: 0.95rem !important;
+      }
+
+      /* HERO: scale down huge typography */
+      #home h1 { font-size: 2.4rem !important; line-height: 1.1 !important; }
+      #home h3 { font-size: 1.3rem !important; }
+      #home h4 { font-size: 1.0rem !important; line-height: 1.4 !important; padding: 0 8px !important; }
+
+      /* CTA buttons: full width on mobile */
+      .cta-button{
+        display: block !important;
+        width: 100% !important;
+        max-width: 420px !important;
+        margin: 12px auto 0 auto !important;
+        text-align: center !important;
+        padding: 12px 18px !important;
+        font-size: 1rem !important;
+      }
+
+      /* Timeline: tighten spacing */
+      .timeline{ padding-left: 18px !important; }
+      .timeline:before{ left: 6px !important; }
+      .t-item{ margin-left: 6px !important; padding: 12px !important; }
+      .t-item.academic:before, .t-item.work:before{
+        left: -32px !important;
+        width: 22px !important;
+        height: 22px !important;
+        top: 14px !important;
+        background-size: 16px 16px, auto !important;
+      }
+      .t-role{ font-size: 1.1rem !important; }
+      .t-org{ font-size: 1.0rem !important; }
+      .t-desc{ font-size: 0.95rem !important; text-align: left !important; }
+
+      /* Pills/tags wrap nicely */
+      .t-tags{ gap: 6px !important; }
+      .t-tag{ font-size: 0.85rem !important; padding: 3px 9px !important; }
+
+      /* Social buttons: smaller */
+      .social-btn{ width: 42px !important; height: 42px !important; }
+      .social-btn img{ width: 26px !important; height: 26px !important; }
+    }
+
             </style>""",
             unsafe_allow_html=True #<a href="#academic-journey">Academic Journey</a>
           )
