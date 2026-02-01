@@ -545,8 +545,7 @@ with left:
               &nbsp;
             </p>
             <p class="t-desc">
-              <span class="highlight-key">Sentiment Analytics (GenAI):</span> Developed LLM-powered sentiment analysis
-              <a href="https://sentiment-analytics-g-reviews.streamlit.app/" target="_blank" class="t-link">↗︎web application</a>
+              <span class="highlight-key">Sentiment Analytics (GenAI):</span> Developed LLM-powered sentiment analysis web application
               using OpenAI’s API and Streamlit for the Marketing and Merchandise teams that delivered competitive insights, 
               improving targeted campaigning and product planning outcomes by ~ 10%.
             </p>
@@ -785,6 +784,7 @@ with col1:
     st.markdown(
                 """
                 <a href="https://github.com/sundarram1608/Google-Review-Analytics.git" target="_blank" class="t-link">↗︎ Code Repo</a> - for more details.
+                <a href="https://sentiment-analytics-g-reviews.streamlit.app/" target="_blank" class="t-link">↗︎web application</a>
                 """,
                 unsafe_allow_html=True,
               )
