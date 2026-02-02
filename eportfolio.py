@@ -1274,6 +1274,13 @@ st.markdown(
                     <a href="mailto:sundarram1997@arizona.edu" class="cta-button">
                         Send an e-mail
                     </a>
+                    <!-- View CV button -->
+                <a href="https://drive.google.com/YOUR_CV_LINK_HERE"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="cta-button">
+                    View CV
+                </a>
                 </div>
             </div>
             """,
