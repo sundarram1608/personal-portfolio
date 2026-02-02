@@ -168,16 +168,7 @@ st.markdown(
                           margin-top: 6px;
                         }
 
-              .timeline:before{
-                                content: "";
-                                position: absolute;
-                                left: 8px;
-                                top: 0;
-                                bottom: 0;
-                                width: 2px;
-                                background: rgba(255,255,255,0.20);
-                                border-radius: 2px;
-                              }
+
 
               /* --- Each item --- */
               .t-item{
