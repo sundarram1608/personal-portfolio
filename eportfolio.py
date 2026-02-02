@@ -1267,42 +1267,18 @@ st.markdown(
             unsafe_allow_html=True,
         )
 
-# st.markdown(
-#             """         
-#             <div style="text-align:center; padding-bottom: 20px;">   
-#                 <div style="margin-top: 0px;">
-#                     <a href="mailto:sundarram1997@arizona.edu" class="cta-button">
-#                         Send an e-mail
-#                     </a>
-#                 </div>
-#             </div>
-#             """,
-#             unsafe_allow_html=True,
-#         )
-
 st.markdown(
             """         
             <div style="text-align:center; padding-bottom: 20px;">   
-                <div style="margin-top: 0px; display: flex; justify-content: center; gap: 18px;">
-                    
-                    <!-- Email button -->
+                <div style="margin-top: 0px;">
                     <a href="mailto:sundarram1997@arizona.edu" class="cta-button">
                         Send an e-mail
                     </a>
-        
-                    <!-- View CV button -->
-                    <a href="https://drive.google.com/file/d/1SwJCjxrVM9nOPJ82HtNqkjy3Vow7Q_eb/view?usp=sharing"
-                       class="cta-button">
-                        View CV
-                    </a>
-        
                 </div>
             </div>
             """,
             unsafe_allow_html=True,
-            )
-
-
+        )
 
 
 st.markdown(
