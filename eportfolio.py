@@ -138,6 +138,7 @@ st.markdown(
                                     /* Button background */
                                     background: transparent;
                                     border-radius: 10px;
+                                    border: 1.5px solid #9ca3af;
         
                                     /* FORCE white text */
                                     color: #ffffff !important;
