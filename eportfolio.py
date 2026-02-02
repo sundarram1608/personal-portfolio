@@ -328,71 +328,70 @@ st.markdown(
     /* ---------- MOBILE RESPONSIVE OVERRIDES ---------- */
     @media (max-width: 768px){
 
-      /* Reduce global padding and avoid horizontal scroll */
-      html, body { overflow-x: hidden; }
-      .block-container { padding-top: 4.2rem !important; padding-left: 1rem !important; padding-right: 1rem !important; }
+                              /* Reduce global padding and avoid horizontal scroll */
+                              html, body { overflow-x: hidden; }
+                              .block-container { padding-top: 4.2rem !important; padding-left: 1rem !important; padding-right: 1rem !important; }
+                        
+                              /* Nav: stack, reduce margins, allow wrap */
+                              .top-nav-wrap{
+                                                padding: 8px 10px !important;
+                                                flex-wrap: wrap !important;
+                                                gap: 8px !important;
+                                              }
+                              .top-nav-brand{
+                                                width: 100% !important;
+                                                margin-left: 0 !important;
+                                                justify-content: center !important;
+                                                align-items: center !important;
+                                              }
+                              .top-nav-links{
+                                                width: 100% !important;
+                                                margin-right: 0 !important;
+                                                justify-content: center !important;
+                                                flex-wrap: wrap !important;
+                                                gap: 12px !important;
+                                                font-size: 0.95rem !important;
+                                              }
+                        
+                              /* HERO: scale down huge typography */
+                              #home h1 { font-size: 2.4rem !important; line-height: 1.1 !important; }
+                              #home h3 { font-size: 1.3rem !important; }
+                              #home h4 { font-size: 1.0rem !important; line-height: 1.4 !important; padding: 0 8px !important; }
 
-      /* Nav: stack, reduce margins, allow wrap */
-      .top-nav-wrap{
-        padding: 8px 10px !important;
-        flex-wrap: wrap !important;
-        gap: 8px !important;
-      }
-      .top-nav-brand{
-        width: 100% !important;
-        margin-left: 0 !important;
-        justify-content: center !important;
-        align-items: center !important;
-      }
-      .top-nav-links{
-        width: 100% !important;
-        margin-right: 0 !important;
-        justify-content: center !important;
-        flex-wrap: wrap !important;
-        gap: 12px !important;
-        font-size: 0.95rem !important;
-      }
-
-      /* HERO: scale down huge typography */
-      #home h1 { font-size: 2.4rem !important; line-height: 1.1 !important; }
-      #home h3 { font-size: 1.3rem !important; }
-      #home h4 { font-size: 1.0rem !important; line-height: 1.4 !important; padding: 0 8px !important; }
-
-      /* CTA buttons: full width on mobile */
-      .cta-button{
-        display: block !important;
-        width: 100% !important;
-        max-width: 420px !important;
-        margin: 12px auto 0 auto !important;
-        text-align: center !important;
-        padding: 12px 18px !important;
-        font-size: 1rem !important;
-      }
-
-      /* Timeline: tighten spacing */
-      .timeline{ padding-left: 18px !important; }
-      .timeline:before{ left: 6px !important; }
-      .t-item{ margin-left: 6px !important; padding: 12px !important; }
-      .t-item.academic:before, .t-item.work:before{
-        left: -32px !important;
-        width: 22px !important;
-        height: 22px !important;
-        top: 14px !important;
-        background-size: 16px 16px, auto !important;
-      }
-      .t-role{ font-size: 1.1rem !important; }
-      .t-org{ font-size: 1.0rem !important; }
-      .t-desc{ font-size: 0.95rem !important; text-align: left !important; }
-
-      /* Pills/tags wrap nicely */
-      .t-tags{ gap: 6px !important; }
-      .t-tag{ font-size: 0.85rem !important; padding: 3px 9px !important; }
-
-      /* Social buttons: smaller */
-      .social-btn{ width: 42px !important; height: 42px !important; }
-      .social-btn img{ width: 26px !important; height: 26px !important; }
-    }
-
+                              /* CTA buttons: full width on mobile */
+                              .cta-button{
+                                            display: block !important;
+                                            width: 100% !important;
+                                            max-width: 420px !important;
+                                            margin: 12px auto 0 auto !important;
+                                            text-align: center !important;
+                                            padding: 12px 18px !important;
+                                            font-size: 1rem !important;
+                                          }
+                        
+                              /* Timeline: tighten spacing */
+                              .timeline{ padding-left: 18px !important; }
+                              .timeline:before{ left: 6px !important; }
+                              .t-item{ margin-left: 6px !important; padding: 12px !important; }
+                              .t-item.academic:before, .t-item.work:before{
+                                                                            left: -32px !important;
+                                                                            width: 22px !important;
+                                                                            height: 22px !important;
+                                                                            top: 14px !important;
+                                                                            background-size: 16px 16px, auto !important;
+                                                                          }
+                              .t-role{ font-size: 1.1rem !important; }
+                              .t-org{ font-size: 1.0rem !important; }
+                              .t-desc{ font-size: 0.95rem !important; text-align: left !important; }
+                        
+                              /* Pills/tags wrap nicely */
+                              .t-tags{ gap: 6px !important; }
+                              .t-tag{ font-size: 0.85rem !important; padding: 3px 9px !important; }
+                        
+                              /* Social buttons: smaller */
+                              .social-btn{ width: 42px !important; height: 42px !important; }
+                              .social-btn img{ width: 26px !important; height: 26px !important; }
+                            }
             </style>""",
             unsafe_allow_html=True #<a href="#academic-journey">Academic Journey</a>
           )
@@ -514,219 +513,226 @@ st.write("")
 st.markdown(
               """            
               <div id="journey" style="text-align:center; padding: 60px 0 40px 0; scroll-margin-top: 90px;">
-              <h2>Journey</h2>
+              <h2>Professional Journey</h2>
               </div>
               """,
               unsafe_allow_html=True,
           )
 #Two side-by-side containers for Industry and Academics
-left, right = st.columns(2, vertical_alignment="top")
+# left, right = st.columns(2, vertical_alignment="top")
 
 # -----------------------------
 # INDUSTRY JOURNEY
 # -----------------------------
+# with left:
+# with st.container(border=False, height=800):
+# st.markdown("<div class='timeline-title'>Professional Journey</div>", unsafe_allow_html=True)
+st.markdown(
+    """
+    <div class="timeline">
 
-with left:
-  # with st.container(border=False, height=800):
-    st.markdown("<div class='timeline-title'>Industry</div>", unsafe_allow_html=True)
-    st.markdown(
-        """
-        <div class="timeline">
-
-          <div class="t-item work">
-            <div class="t-date">Oct 2023 - Jul 2025</div>
-            <div class="t-role">Data Science & Advanced Analytics</div>
-            <div class="t-org">Titan Company Limited</div>
-            <p class="t-desc">
-              Spearheaded the Data Centre of Excellence, leveraging Generative AI & Machine Learning Models 
-              to build & deploy Deep Learning pipelines and web applications for Analytics use cases with Python & SQL.
-            </p>
-            <p class="t-desc">
-              &nbsp;
-            </p>
-            <p class="t-desc">
-              <span class="highlight-key">Sentiment Analytics (GenAI):</span> Developed LLM-powered sentiment analysis web application
-              using OpenAI’s API and Streamlit for the Marketing and Merchandise teams that delivered competitive insights, 
-              improving targeted campaigning and product planning outcomes by ~ 10%.
-            </p>
-            <p class="t-desc">
-              &nbsp;
-            </p>
-            <p class="t-desc">
-              <span class="highlight-key">Merchandise Copilot (GenAI):</span> Built an LLM-driven pipeline using OpenAI’s APIs to analyze textual and audio feedback from 
-              non-purchasers, enabling the Merchandise team to optimize product assortment and drive ~ 8 to 10% sales uplift per stored
-            </p>
-            <p class="t-desc">
-              &nbsp;
-            </p>            
-            <p class="t-desc">
-              <span class="highlight-key">Product Annotation and Content generation (GenAI):</span> 
-              Delivered an LLM-driven pipeline using OpenAI’s API to extract prominent design elements from jewelry images, 
-              automating product description generation and reducing manual effort by ~30 minutes per product, while facilitating design analytics that increased portfolio diversity 
-              and improved merchandise allocation decisions by ~5%.
-            </p>
-            <p class="t-desc">
-              &nbsp;
-            </p>
-            <p class="t-desc">
-              <span class="highlight-key">Customer Segmentation:</span> 
-              Built a deep learning–based language classification pipeline to segment customers by mother tongue, integrated the model in ETL pipeline and automated mother tongue identification of new customers through AWS Glue,
-              enabling targeted marketing initiatives that improved CRM customer engagement metrics by ~10%.
-            </p>
-            <p class="t-desc">
-              &nbsp;
-            </p>
-            <p class="t-desc">
-              <span class="highlight-key">Network Expansion:</span> Leveraged SQL to empower Retail team with insights on potential market opportunities.
-            <p class="t-desc">
-              &nbsp;
-            </p>
-            <p class="t-desc">
-              <span class="highlight-key">Geo Spatial Analytics:</span> Leveraged Tableau for Geo Spatial Sales Analysis, to identify catchments with high customer affinity.
-            </p>
-            <div class="t-tags">
-              <span class="t-tag">LLM Pipelines</span>
-              <span class="t-tag">Gen AI</span>
-              <span class="t-tag">Sentiment Analytics</span>
-              <span class="t-tag">Merchandise Optimization</span>
-              <span class="t-tag">Business Analytics</span>
-              <span class="t-tag">Consumer Analytics</span>
-              <span class="t-tag">Network Expansion</span>
-              <span class="t-tag">Customer Segmentation</span>
-            </div>
-          </div>
-
-          <div class="t-item work">
-            <div class="t-date">Apr 2023 - Sep 2023</div>
-            <div class="t-role">Merchandising</div>
-            <div class="t-org">Titan Company Limited</div>
-            <p class="t-desc">
-              - Led product attribution and optimized inventory by demographic segments, which resulted 29% annual growth in wedding sales.
-            </p>
-            <p class="t-desc">
-              - Analyzed sales & empowered product team with data-driven insights for introducing new products.
-            </p>
-            <div class="t-tags">
-              <span class="t-tag">Product Annotation</span>
-              <span class="t-tag">Sales Analysis</span>
-              <span class="t-tag">Inventory Optimization</span>
-              <span class="t-tag">Market Research</span>
-            </div>
-          </div>
-
-          <div class="t-item work">
-            <div class="t-date">Apr 2023 - Mar 2024</div>
-            <div class="t-role">Young Leadership Program</div>
-            <div class="t-org">Titan Company Limited</div>
-            <p class="t-desc">
-              - Identified amongst the top 12% of the company’s high-performing and emerging young talent with leadership potential. 
-            </p>
-            <p class="t-desc">
-              - Fully sponsored with the Post Graduate Certificate in Business Management from XLRI.
-            </p>
-            <p class="t-desc">
-              - Empowered the senior leadership of Jewelry Merchandising  and Digital Analytics Function with data-based decision support systems for several intriguing business challenges.
-            </p>            
-            <div class="t-tags">
-              <span class="t-tag">Leadership</span>
-              <span class="t-tag">Business Management</span>
-              <span class="t-tag">Self-Reflection</span>
-              <span class="t-tag">Merchandising</span>
-              <span class="t-tag">Dashboarding</span>
-            </div>
-          </div>
-
-
-          <div class="t-item work">
-            <div class="t-date">Jul 2019 - Mar 2023</div>
-            <div class="t-role">New Product Development</div>
-            <div class="t-org">Titan Company Limited</div>
-            <p class="t-desc">
-              - Steered the product development of 600+ watch designs by effective analytics and project management for the Brand Sonata.
-            </p>
-            <p class="t-desc">
-             - Formulated tailored product development milestones and aligned stakeholders to achieve 95% on-time design delivery.
-            </p>
-            <p class="t-desc">
-              - Fostered innovation through extensive market research and implementation of SCAMPER technique, for a 1Bn watch market and introduced the first-ever branded skeletal quartz watch that enabled growth of >2K price band portfolio by 170%.
-            </p>
-            <p class="t-desc">
-              - Empowered Top leadership with effective visual insights by analyzing the cost vs. Procurement matrix for optimal decision-making.
-            </p>
-            <p class="t-desc">
-              - Reduced the lead time of proto-dial manufacturing from 45 to 10 days (77 %) by causal inferencing of manufacturing techniques that secured 13th rank in the National level Kaizen competition.
-            </p>
-            <p class="t-desc">
-              - Established Lead time and product attributes correlation matrix, enabling watch production without prototype approval.
-            </p>
-            <div class="t-tags">
-              <span class="t-tag">Product analytics</span>
-              <span class="t-tag">Manufacturing analytics</span>
-              <span class="t-tag">Kaizen</span>
-              <span class="t-tag">Cost reduction</span>
-              <span class="t-tag">Decision Support systems</span>
-              <span class="t-tag">Product development</span>
-              <span class="t-tag">Project Management</span>
-            </div>
-          </div>
+      <div class="t-item work">
+        <div class="t-date">Oct 2023 - Jul 2025</div>
+        <div class="t-role">Data Science & Advanced Analytics</div>
+        <div class="t-org">Titan Company Limited</div>
+        <p class="t-desc">
+          Spearheaded the Data Centre of Excellence, leveraging Generative AI & Machine Learning Models 
+          to build & deploy Deep Learning pipelines and web applications for Analytics use cases with Python & SQL.
+        </p>
+        <p class="t-desc">
+          &nbsp;
+        </p>
+        <p class="t-desc">
+          <span class="highlight-key">Sentiment Analytics (GenAI):</span> Developed LLM-powered sentiment analysis web application
+          using OpenAI’s API and Streamlit for the Marketing and Merchandise teams that delivered competitive insights, 
+          improving targeted campaigning and product planning outcomes by ~ 10%.
+        </p>
+        <p class="t-desc">
+          &nbsp;
+        </p>
+        <p class="t-desc">
+          <span class="highlight-key">Merchandise Copilot (GenAI):</span> Built an LLM-driven pipeline using OpenAI’s APIs to analyze textual and audio feedback from 
+          non-purchasers, enabling the Merchandise team to optimize product assortment and drive ~ 8 to 10% sales uplift per stored
+        </p>
+        <p class="t-desc">
+          &nbsp;
+        </p>            
+        <p class="t-desc">
+          <span class="highlight-key">Product Annotation and Content generation (GenAI):</span> 
+          Delivered an LLM-driven pipeline using OpenAI’s API to extract prominent design elements from jewelry images, 
+          automating product description generation and reducing manual effort by ~30 minutes per product, while facilitating design analytics that increased portfolio diversity 
+          and improved merchandise allocation decisions by ~5%.
+        </p>
+        <p class="t-desc">
+          &nbsp;
+        </p>
+        <p class="t-desc">
+          <span class="highlight-key">Customer Segmentation:</span> 
+          Built a deep learning–based language classification pipeline to segment customers by mother tongue, integrated the model in ETL pipeline and automated mother tongue identification of new customers through AWS Glue,
+          enabling targeted marketing initiatives that improved CRM customer engagement metrics by ~10%.
+        </p>
+        <p class="t-desc">
+          &nbsp;
+        </p>
+        <p class="t-desc">
+          <span class="highlight-key">Network Expansion:</span> Leveraged SQL to empower Retail team with insights on potential market opportunities.
+        <p class="t-desc">
+          &nbsp;
+        </p>
+        <p class="t-desc">
+          <span class="highlight-key">Geo Spatial Analytics:</span> Leveraged Tableau for Geo Spatial Sales Analysis, to identify catchments with high customer affinity.
+        </p>
+        <div class="t-tags">
+          <span class="t-tag">LLM Pipelines</span>
+          <span class="t-tag">Gen AI</span>
+          <span class="t-tag">Sentiment Analytics</span>
+          <span class="t-tag">Merchandise Optimization</span>
+          <span class="t-tag">Business Analytics</span>
+          <span class="t-tag">Consumer Analytics</span>
+          <span class="t-tag">Network Expansion</span>
+          <span class="t-tag">Customer Segmentation</span>
         </div>
-        """,
-        unsafe_allow_html=True,
-    )
+      </div>
+
+      <div class="t-item work">
+        <div class="t-date">Apr 2023 - Sep 2023</div>
+        <div class="t-role">Merchandising</div>
+        <div class="t-org">Titan Company Limited</div>
+        <p class="t-desc">
+          - Led product attribution and optimized inventory by demographic segments, which resulted 29% annual growth in wedding sales.
+        </p>
+        <p class="t-desc">
+          - Analyzed sales & empowered product team with data-driven insights for introducing new products.
+        </p>
+        <div class="t-tags">
+          <span class="t-tag">Product Annotation</span>
+          <span class="t-tag">Sales Analysis</span>
+          <span class="t-tag">Inventory Optimization</span>
+          <span class="t-tag">Market Research</span>
+        </div>
+      </div>
+
+      <div class="t-item work">
+        <div class="t-date">Apr 2023 - Mar 2024</div>
+        <div class="t-role">Young Leadership Program</div>
+        <div class="t-org">Titan Company Limited</div>
+        <p class="t-desc">
+          - Identified amongst the top 12% of the company’s high-performing and emerging young talent with leadership potential. 
+        </p>
+        <p class="t-desc">
+          - Fully sponsored with the Post Graduate Certificate in Business Management from XLRI.
+        </p>
+        <p class="t-desc">
+          - Empowered the senior leadership of Jewelry Merchandising  and Digital Analytics Function with data-based decision support systems for several intriguing business challenges.
+        </p>            
+        <div class="t-tags">
+          <span class="t-tag">Leadership</span>
+          <span class="t-tag">Business Management</span>
+          <span class="t-tag">Self-Reflection</span>
+          <span class="t-tag">Merchandising</span>
+          <span class="t-tag">Dashboarding</span>
+        </div>
+      </div>
+
+
+      <div class="t-item work">
+        <div class="t-date">Jul 2019 - Mar 2023</div>
+        <div class="t-role">New Product Development</div>
+        <div class="t-org">Titan Company Limited</div>
+        <p class="t-desc">
+          - Steered the product development of 600+ watch designs by effective analytics and project management for the Brand Sonata.
+        </p>
+        <p class="t-desc">
+         - Formulated tailored product development milestones and aligned stakeholders to achieve 95% on-time design delivery.
+        </p>
+        <p class="t-desc">
+          - Fostered innovation through extensive market research and implementation of SCAMPER technique, for a 1Bn watch market and introduced the first-ever branded skeletal quartz watch that enabled growth of >2K price band portfolio by 170%.
+        </p>
+        <p class="t-desc">
+          - Empowered Top leadership with effective visual insights by analyzing the cost vs. Procurement matrix for optimal decision-making.
+        </p>
+        <p class="t-desc">
+          - Reduced the lead time of proto-dial manufacturing from 45 to 10 days (77 %) by causal inferencing of manufacturing techniques that secured 13th rank in the National level Kaizen competition.
+        </p>
+        <p class="t-desc">
+          - Established Lead time and product attributes correlation matrix, enabling watch production without prototype approval.
+        </p>
+        <div class="t-tags">
+          <span class="t-tag">Product analytics</span>
+          <span class="t-tag">Manufacturing analytics</span>
+          <span class="t-tag">Kaizen</span>
+          <span class="t-tag">Cost reduction</span>
+          <span class="t-tag">Decision Support systems</span>
+          <span class="t-tag">Product development</span>
+          <span class="t-tag">Project Management</span>
+        </div>
+      </div>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
 
 # -----------------------------
 # ACADEMIC JOURNEY
 # -----------------------------
+st.markdown(
+              """            
+              <div id="journey" style="text-align:center; padding: 60px 0 40px 0; scroll-margin-top: 90px;">
+              <h2>Academic Journey</h2>
+              </div>
+              """,
+              unsafe_allow_html=True,
+          )
 
-with right:
-  # with st.container(border=False, height=1000):
-    st.markdown("<div class='timeline-title'>Academics</div>", unsafe_allow_html=True)
-    st.markdown(
-        """
-        <div class="timeline">
+# with right:
+# with st.container(border=False, height=1000):
+# st.markdown("<div class='timeline-title>Academic Journey</div>", unsafe_allow_html=True)
+st.markdown(
+    """
+    <div class="timeline">
 
-          <div class="t-item academic">
-            <div class="t-date">Jun 2024 - May 2026</div>
-            <div class="t-role">Masters in Information Science (Machine Learning)</div>
-            <div class="t-org">University of Arizona</div>
-            <p class="t-desc">
-              <span class="highlight-key">Focus Area:</span> Building Deep Learning Pipelines, LLM Fine Tuning, Music Information Retrieval, NLP (SemEval tasks), & Computer Vision.
-            </p>
-            <div>
-            <span class="gpa-pill">GPA: 4/4</span>
-            <a href="https://eportfolio-sundar-ram-subramanian-masters-infosci-uofa.streamlit.app" target="_blank" class="t-link">↗︎Academic e-Portfolio</a>
-            </div>
-          </div>
-
-          <div class="t-item academic">
-            <div class="t-date">Sep 2023 - Aug 2024</div>
-            <div class="t-role">Post Graduate Certification in Business Management</div>
-            <div class="t-org">Xavier's School of Management (XLRI)</div>
-            <p class="t-desc">
-              <span class="highlight-key">Focus Area:</span> Business Management, International Business Development, Economics & Finance.
-            </p>
-            <div>
-            <span class="gpa-pill">GPA: 6.52/8</span>
-            </div>
-          </div>
-
-          <div class="t-item academic">
-            <div class="t-date">Dec 2021 - Jan 2023</div>
-            <div class="t-role">Post Graduate Program in Data Science and Business Analytics</div>
-            <div class="t-org">University of Texas at Austin</div>
-            <p class="t-desc">
-              <span class="highlight-key">Focus Area:</span> Advanced Statistical Modelling, EDA, Supervised & Unsupervised Learning, Time Series Forecasting, SQL for Database, RFMA, MBA, Tableau & Dashboarding.
-            </p>
-            <div>
-            <span class="gpa-pill">GPA: 3.6/4</span>
-            <a href="https://eportfolio.mygreatlearning.com/sundar-ram-s" target="_blank" class="t-link">↗︎Academic e-Portfolio</a>
-            </div>
-          </div> 
-
+      <div class="t-item academic">
+        <div class="t-date">Jun 2024 - May 2026</div>
+        <div class="t-role">Masters in Information Science (Machine Learning)</div>
+        <div class="t-org">University of Arizona</div>
+        <p class="t-desc">
+          <span class="highlight-key">Focus Area:</span> Building Deep Learning Pipelines, LLM Fine Tuning, Music Information Retrieval, NLP (SemEval tasks), & Computer Vision.
+        </p>
+        <div>
+        <span class="gpa-pill">GPA: 4/4</span>
+        <a href="https://eportfolio-sundar-ram-subramanian-masters-infosci-uofa.streamlit.app" target="_blank" class="t-link">↗︎Academic e-Portfolio</a>
         </div>
-        """,
-        unsafe_allow_html=True,
-    )
+      </div>
+
+      <div class="t-item academic">
+        <div class="t-date">Sep 2023 - Aug 2024</div>
+        <div class="t-role">Post Graduate Certification in Business Management</div>
+        <div class="t-org">Xavier's School of Management (XLRI)</div>
+        <p class="t-desc">
+          <span class="highlight-key">Focus Area:</span> Business Management, International Business Development, Economics & Finance.
+        </p>
+        <div>
+        <span class="gpa-pill">GPA: 6.52/8</span>
+        </div>
+      </div>
+
+      <div class="t-item academic">
+        <div class="t-date">Dec 2021 - Jan 2023</div>
+        <div class="t-role">Post Graduate Program in Data Science and Business Analytics</div>
+        <div class="t-org">University of Texas at Austin</div>
+        <p class="t-desc">
+          <span class="highlight-key">Focus Area:</span> Advanced Statistical Modelling, EDA, Supervised & Unsupervised Learning, Time Series Forecasting, SQL for Database, RFMA, MBA, Tableau & Dashboarding.
+        </p>
+        <div>
+        <span class="gpa-pill">GPA: 3.6/4</span>
+        <a href="https://eportfolio.mygreatlearning.com/sundar-ram-s" target="_blank" class="t-link">↗︎Academic e-Portfolio</a>
+        </div>
+      </div> 
+
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
 
 st.write("")
 st.write("")
@@ -1279,7 +1285,7 @@ st.markdown(
                    target="_blank"
                    rel="noopener noreferrer"
                    class="cta-button">
-                    View CV
+                    View my CV
                 </a>
                 </div>
             </div>
