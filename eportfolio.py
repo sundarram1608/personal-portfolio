@@ -102,7 +102,7 @@ st.markdown(
                                 -webkit-text-fill-color: transparent;
                                 }
                                 
-              /* Gradient button style (matches highlight-name colors) */
+              /* Gradient button style */
               .cta-button {
                             display: inline-block;
                             padding: 14px 28px;
@@ -126,6 +126,31 @@ st.markdown(
                                   transform: translateY(-2px);
                                   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
                                 }
+              /* button style for resume */
+              .cta-button-resume {
+                                    display: inline-block;
+                                    padding: 14px 28px;
+                                    margin: 20px 12px 0 12px;
+                                    font-size: 1.1rem;
+                                    font-weight: 600;
+                                    text-decoration: none !important;
+        
+                                    /* Button background */
+                                    background: transparent;
+                                    border-radius: 10px;
+        
+                                    /* FORCE white text */
+                                    color: #ffffff !important;
+                                    -webkit-text-fill-color: #ffffff !important;
+        
+                                    transition: transform 0.2s ease, box-shadow 0.2s ease;
+                                  }
+
+              .cta-button-resume:hover {
+                                          transform: translateY(-2px);
+                                          box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+                                          background: #f5c542;
+                                        }
 
 /* --- Two-column timeline container spacing --- */
               .timeline-title{
@@ -1278,14 +1303,14 @@ st.markdown(
             <div style="text-align:center; padding-bottom: 20px;">   
                 <div style="margin-top: 0px;">
                     <a href="mailto:sundarram1997@arizona.edu" class="cta-button">
-                        Send an e-mail
+                        Email
                     </a>
                     <!-- View CV button -->
                 <a href="https://drive.google.com/file/d/1SwJCjxrVM9nOPJ82HtNqkjy3Vow7Q_eb/view?usp=sharing"
                    target="_blank"
                    rel="noopener noreferrer"
-                   class="cta-button">
-                    View my CV
+                   class="cta-button-resume">
+                    Resume
                 </a>
                 </div>
             </div>
