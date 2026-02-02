@@ -156,7 +156,7 @@ st.markdown(
               /* --- Each item --- */
               .t-item{
                         position: relative;
-                        margin: 0 30px 20px 30px;
+                        margin: 0 80px 20px 80px;
                         padding: 14px 14px 14px 16px;
                         background: transparent;
                         border: 1px solid rgba(255,255,255,0.12);
