@@ -402,7 +402,7 @@ st.markdown(
             """            
             <div class="top-nav-wrap">
               <div class="top-nav-brand">
-                <h2 href="#brand"><span class="highlight-name">RAM</span></h2>
+                <h2 href="#brand"><span class="highlight-name">RAM.</span></h2>
               </div>
             <div class="top-nav-links">             
                 <a href="#home">Home</a>
