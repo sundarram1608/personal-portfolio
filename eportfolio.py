@@ -71,13 +71,13 @@ st.markdown(
 
               /* Blue links, no underline */
               .top-nav-links a{
-                          color: #fcfcfc;
-                          text-decoration: none !important;
-                        }
+                                  color: #fcfcfc;
+                                  text-decoration: none !important;
+                                }
               .top-nav-links a:hover{
-                                text-decoration: none;
-                                color: #f5c542;
-                              }
+                                        text-decoration: none;
+                                        color: #f5c542;
+                                      }
 
               /* Prevent anchor jumps from hiding headings under the fixed nav */
               h2 { scroll-margin-top: 150px; }
@@ -402,7 +402,7 @@ st.markdown(
             """            
             <div class="top-nav-wrap">
               <div class="top-nav-brand">
-                <h2 href="#brand"><span class="highlight-name">SR.</span></h2>
+                <h2 href="#brand"><span class="highlight-name">RAM</span></h2>
               </div>
             <div class="top-nav-links">             
                 <a href="#home">Home</a>
@@ -784,13 +784,13 @@ with col1:
     st.markdown(
                 """
                 <a href="https://github.com/sundarram1608/Google-Review-Analytics.git" target="_blank" class="t-link">↗︎ Code Repo</a> - for more details.
-                <a href="https://sentiment-analytics-g-reviews.streamlit.app/" target="_blank" class="t-link">↗︎web application</a>
+                <a href="https://sentiment-analytics-g-reviews.streamlit.app/" target="_blank" class="t-link"> &nbsp&nbsp;↗︎web application</a>
                 """,
                 unsafe_allow_html=True,
               )
     st.markdown("""
                     Leveraged OpenAI GPT models to translate unstructured customer reviews into actionable consumer insights. 
-                    Also, built a streamlit powered UI to visualize the insights.
+                    Also built a Streamlit-powered UI to visualize insights.
                 """)
     
 with col2:
@@ -805,7 +805,7 @@ with col2:
                 unsafe_allow_html=True,
             )
     st.image("images/nlp.jpg", use_container_width=False)
-    selected_categories = ["Deep Learning", "NLP"]
+    selected_categories = ["Deep Learning", "NLP", "Fine-Tuning", "Transfer Learning"]
     categories = st.pills(
                             "",
                             selected_categories,
