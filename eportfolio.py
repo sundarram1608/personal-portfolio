@@ -1275,7 +1275,7 @@ st.markdown(
                         Send an e-mail
                     </a>
                     <!-- View CV button -->
-                <a href="https://drive.google.com/YOUR_CV_LINK_HERE"
+                <a href="https://drive.google.com/file/d/1SwJCjxrVM9nOPJ82HtNqkjy3Vow7Q_eb/view?usp=sharing"
                    target="_blank"
                    rel="noopener noreferrer"
                    class="cta-button">
