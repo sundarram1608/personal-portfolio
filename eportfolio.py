@@ -784,7 +784,7 @@ with col1:
     st.markdown(
                 """
                 <a href="https://github.com/sundarram1608/Google-Review-Analytics.git" target="_blank" class="t-link">↗︎ Code Repo</a> - for more details.
-                <a href="https://sentiment-analytics-g-reviews.streamlit.app/" target="_blank" class="t-link"> &nbsp&nbsp;↗︎web application</a>
+                <a href="https://sentiment-analytics-g-reviews.streamlit.app/" target="_blank" class="t-link"> &nbsp;&nbsp;↗︎web application</a>
                 """,
                 unsafe_allow_html=True,
               )
