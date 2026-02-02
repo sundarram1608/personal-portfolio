@@ -1290,7 +1290,6 @@ st.markdown(
                  aria-label="LinkedIn">
                 <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" />
               </a>
-            
               <a class="social-btn"
                  href="https://github.com/sundarram1608"
                  target="_blank"
