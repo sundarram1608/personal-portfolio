@@ -1,4 +1,6 @@
 import streamlit as st
+from pathlib import Path
+import base64
 
 # -----------------------------
 # PAGE CONFIGURATION
@@ -13,7 +15,11 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
+# -----------------------------
+# INITIALIZING BASE DIRECTORY
+# -----------------------------
 
+BASE_DIR = Path(__file__).resolve().parent
 
 # -----------------------------
 # HEADER NAVIGATION
@@ -409,6 +415,23 @@ st.markdown(
                               .social-btn{ width: 42px !important; height: 42px !important; }
                               .social-btn img{ width: 26px !important; height: 26px !important; }
                             }
+                            
+              .circle-image {
+                                width: 400px;
+                                height: 400px;
+                                border-radius: 50%;
+                                overflow: hidden;
+                                box-shadow: 0 0 50px #f5c542;
+                                border: 1px solid #f5c542;
+
+                                margin: auto;
+                            }
+              
+              .circle-image img {
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: cover;
+                                }
             </style>""",
             unsafe_allow_html=True #<a href="#academic-journey">Academic Journey</a>
           )
@@ -489,7 +512,17 @@ st.markdown(
 col1, col2 = st.columns([1, 2], vertical_alignment="top")
 
 with col1:
-    st.image("images/profilepicture.jpg", width="content")
+  img_path = BASE_DIR / "images" / "profilepicture.jpg"
+  # st.image(img_path, width="content")
+  
+  with open(img_path, "rb") as f:
+      data = base64.b64encode(f.read()).decode()
+
+  st.markdown(f"""
+      <div class="circle-image">
+          <img src="data:image/jpg;base64,{data}">
+      </div>
+  """, unsafe_allow_html=True)
     
 with col2:      
   st.markdown(
@@ -519,7 +552,7 @@ with col2:
               )
 
 st.write("")
-st.write("")
+st.write("") 
 st.write("")
 st.write("")
 
@@ -795,7 +828,8 @@ with col1:
                 """,
                 unsafe_allow_html=True,
             )
-    st.image("images/gmbsentimentanalytics.jpg", use_container_width=False)
+    img_path = BASE_DIR / "images" / "gmbsentimentanalytics.jpg"
+    st.image(img_path, use_container_width=True)
     selected_categories = ["Generative AI", "Web App Development", "Data Visualization", "Dashboarding"]
     categories = st.pills(
                             "",
@@ -827,7 +861,9 @@ with col2:
                 """,
                 unsafe_allow_html=True,
             )
-    st.image("images/nlp.jpg", use_container_width=False)
+    img_path = BASE_DIR / "images" / "nlp.jpg"
+
+    st.image(img_path, use_container_width=True)
     selected_categories = ["Deep Learning", "NLP", "Fine-Tuning", "Transfer Learning"]
     categories = st.pills(
                             "",
@@ -857,7 +893,11 @@ with col3:
                 """,
                 unsafe_allow_html=True,
             )
-    st.image("images/carnatic.jpg", use_container_width=False)
+    img_path = BASE_DIR / "images" / "carnatic.jpg"
+
+    st.image(img_path, use_container_width=True)
+    
+    # st.image("images/carnatic.jpg", use_container_width=False)
     selected_categories = ["Deep Learning Pipeline", "Music Information Retrieval"]
     categories = st.pills(
                             "",
@@ -901,7 +941,11 @@ with col1:
                 """,
                 unsafe_allow_html=True,
             )
-    st.image("images/wasteclassification.jpg", use_container_width=False)
+    img_path = BASE_DIR / "images" / "wasteclassification.jpg"
+
+    st.image(img_path, use_container_width=True)
+    
+    # st.image("images/wasteclassification.jpg", use_container_width=False)
     selected_categories = ["Transfer Learning", "Computer Vision", "Fine-tuning"]
     categories = st.pills(
                             "",
@@ -933,7 +977,11 @@ with col2:
                 """,
                 unsafe_allow_html=True,
             )
-    st.image("images/dbms.jpg", use_container_width=False)
+    img_path = BASE_DIR / "images" / "dbms.jpg"
+
+    st.image(img_path, use_container_width=True)
+    
+    # st.image("images/dbms.jpg", use_container_width=False)
     selected_categories = ["DBMS", "Web App Development", "Analytics Dashboard", "Python-SQL integration"]
     categories = st.pills(
                             "",
@@ -964,7 +1012,11 @@ with col3:
                 """,
                 unsafe_allow_html=True,
             )
-    st.image("images/loandefault.jpg", use_container_width=False)
+    img_path = BASE_DIR / "images" / "loandefault.jpg"
+
+    st.image(img_path, use_container_width=True)
+    
+    # st.image("images/loandefault.jpg", use_container_width=False)
     selected_categories = ["Machine Learning", "parametric models", "tree-based models", "ensemble models", "cross-validation", "hyperparameter tuning"]
     categories = st.pills(
                             "",
@@ -995,7 +1047,11 @@ with col1:
                 """,
                 unsafe_allow_html=True,
             )
-    st.image("images/tableau.jpg", use_container_width=False)
+    img_path = BASE_DIR / "images" / "tableau.jpg"
+
+    st.image(img_path, use_container_width=True)
+
+    # st.image("images/tableau.jpg", use_container_width=False)
     selected_categories = ["Tableau", "Story Boarding", "Data Visualization", "Business Intelligence"]
     categories = st.pills(
                             "",
@@ -1027,7 +1083,11 @@ with col2:
                 """,
                 unsafe_allow_html=True,
             )
-    st.image("images/stat.jpg", use_container_width=False)
+    img_path = BASE_DIR / "images" / "stat.jpg"
+
+    st.image(img_path, use_container_width=True)
+
+    # st.image("images/stat.jpg", use_container_width=False)
     selected_categories = ["Business statistics", "Inferential statistics", "Hypothesis testing"]
     categories = st.pills(
                             "",
@@ -1057,7 +1117,11 @@ with col3:
                 """,
                 unsafe_allow_html=True,
             )
-    st.image("images/tsf.jpg", use_container_width=False)
+    img_path = BASE_DIR / "images" / "tsf.jpg"
+
+    st.image(img_path, use_container_width=True)
+    
+    # st.image("images/tsf.jpg", use_container_width=False)
     selected_categories = ["Exponential Smoothing Models", "ARIMA/SARIMA Models", "Moving Average Models", "Time Series EDA"]
     categories = st.pills(
                             "",
@@ -1086,7 +1150,11 @@ with col2:
                 """,
                 unsafe_allow_html=True,
             )
-    st.image("images/sca.jpg", use_container_width=False)
+    img_path = BASE_DIR / "images" / "sca.jpg"
+
+    st.image(img_path, use_container_width=True)
+    
+    # st.image("images/sca.jpg", use_container_width=False)
     selected_categories = ["EDA", "Linear Models", "Ensemble Models", "Hyper Parameter tuning", "Data Visualization", "Business Intelligence"]
     categories = st.pills(
                             "",
