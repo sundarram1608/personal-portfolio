@@ -583,7 +583,7 @@ st.markdown(
 
       <div class="t-item work">
         <div class="t-date">Oct 2023 - Jul 2025</div>
-        <div class="t-role">Data Science & Advanced Analytics</div>
+        <div class="t-role">Deputy Manager - Data Science & Advanced Analytics</div>
         <div class="t-org">Titan Company Limited</div>
         <p class="t-desc">
           Spearheaded the Data Centre of Excellence, leveraging Generative AI & Machine Learning Models 
@@ -595,14 +595,14 @@ st.markdown(
         <p class="t-desc">
           <span class="highlight-key">Sentiment Analytics (GenAI):</span> Developed LLM-powered sentiment analysis web application
           using OpenAI’s API and Streamlit for the Marketing and Merchandise teams that delivered competitive insights, 
-          improving targeted campaigning and product planning outcomes by ~ 10%.
+          improving targeted campaigning and product planning outcomes by ~ 15%.
         </p>
         <p class="t-desc">
           &nbsp;
         </p>
         <p class="t-desc">
           <span class="highlight-key">Merchandise Copilot (GenAI):</span> Built an LLM-driven pipeline using OpenAI’s APIs to analyze textual and audio feedback from 
-          non-purchasers, enabling the Merchandise team to optimize product assortment and drive ~ 8 to 10% sales uplift per stored
+          non-purchasers, enabling the Merchandise team to optimize product assortment and drive ~ 15 to 18% sales uplift per stored
         </p>
         <p class="t-desc">
           &nbsp;
@@ -611,21 +611,21 @@ st.markdown(
           <span class="highlight-key">Product Annotation and Content generation (GenAI):</span> 
           Delivered an LLM-driven pipeline using OpenAI’s API to extract prominent design elements from jewelry images, 
           automating product description generation and reducing manual effort by ~30 minutes per product, while facilitating design analytics that increased portfolio diversity 
-          and improved merchandise allocation decisions by ~5%.
+          and improved merchandise allocation decisions by ~15%.
         </p>
         <p class="t-desc">
           &nbsp;
         </p>
         <p class="t-desc">
           <span class="highlight-key">Customer Segmentation:</span> 
-          Built a deep learning–based language classification pipeline to segment customers by mother tongue, integrated the model in ETL pipeline and automated mother tongue identification of new customers through AWS Glue,
-          enabling targeted marketing initiatives that improved CRM customer engagement metrics by ~10%.
+          Built a deep learning–based language classification pipeline to segment customers by mother tongue, integrated the model in the ETL pipeline, and automated mother tongue identification of new customers through AWS Glue,
+          enabling targeted marketing initiatives that improved CRM customer engagement metrics by ~20%.
         </p>
         <p class="t-desc">
           &nbsp;
         </p>
         <p class="t-desc">
-          <span class="highlight-key">Network Expansion:</span> Leveraged SQL to empower Retail team with insights on potential market opportunities.
+          <span class="highlight-key">Network Expansion:</span> Leveraged SQL to empower the Retail team with insights on potential market opportunities.
         <p class="t-desc">
           &nbsp;
         </p>
@@ -664,7 +664,7 @@ st.markdown(
 
       <div class="t-item work">
         <div class="t-date">Apr 2023 - Mar 2024</div>
-        <div class="t-role">Young Leadership Program</div>
+        <div class="t-role">Young Leadership Associate - Data Scientist (Merchandising)</div>
         <div class="t-org">Titan Company Limited</div>
         <p class="t-desc">
           - Identified amongst the top 12% of the company’s high-performing and emerging young talent with leadership potential. 
@@ -687,7 +687,7 @@ st.markdown(
 
       <div class="t-item work">
         <div class="t-date">Jul 2019 - Mar 2023</div>
-        <div class="t-role">New Product Development</div>
+        <div class="t-role">Lead Data Scientist - New Product Development</div>
         <div class="t-org">Titan Company Limited</div>
         <p class="t-desc">
           - Steered the product development of 600+ watch designs by effective analytics and project management for the Brand Sonata.
