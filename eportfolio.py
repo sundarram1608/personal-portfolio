@@ -646,7 +646,7 @@ st.markdown(
 
       <div class="t-item work">
         <div class="t-date">Apr 2023 - Sep 2023</div>
-        <div class="t-role">Merchandising</div>
+        <div class="t-role">Young Leadership Associate - Data Scientist (Merchandising)</div>
         <div class="t-org">Titan Company Limited</div>
         <p class="t-desc">
           - Led product attribution and optimized inventory by demographic segments, which resulted 29% annual growth in wedding sales.
