@@ -664,7 +664,7 @@ st.markdown(
 
       <div class="t-item work">
         <div class="t-date">Apr 2023 - Mar 2024</div>
-        <div class="t-role">Young Leadership Associate - Data Scientist (Merchandising)</div>
+        <div class="t-role">Young Leadership Program</div>
         <div class="t-org">Titan Company Limited</div>
         <p class="t-desc">
           - Identified amongst the top 12% of the company’s high-performing and emerging young talent with leadership potential. 
