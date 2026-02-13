@@ -5,7 +5,7 @@ import base64
 # -----------------------------
 # PAGE CONFIGURATION
 # -----------------------------
-st.set_page_config(page_title="Sundar Ram Subramanian: Portfolio", layout="wide")
+st.set_page_config(page_title="Sundar Ram Subramanian: Portfolio", page_icon = ":man_student:", layout="wide")
 
 
 
