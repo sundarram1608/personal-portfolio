@@ -1,25 +1,31 @@
 import streamlit as st
 from pathlib import Path
 import base64
+from PIL import Image
 
-# -----------------------------
-# PAGE CONFIGURATION
-# -----------------------------
-st.set_page_config(page_title="Sundar Ram Subramanian: Portfolio", page_icon = ":man_student:", layout="wide")
-
-
-
-st.markdown(
-    """
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    """,
-    unsafe_allow_html=True,
-)
 # -----------------------------
 # INITIALIZING BASE DIRECTORY
 # -----------------------------
 
 BASE_DIR = Path(__file__).resolve().parent
+
+# -----------------------------
+# PAGE CONFIGURATION
+# -----------------------------
+
+# img_path = BASE_DIR / "images" / "pageicon.png"
+# icon = Image.open(img_path)
+
+st.set_page_config(page_title="Sundar Ram Subramanian: Portfolio", layout="wide") #page_icon = icon,
+
+
+
+st.markdown(
+            """
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+            """,
+            unsafe_allow_html=True,
+        )
 
 # -----------------------------
 # HEADER NAVIGATION
