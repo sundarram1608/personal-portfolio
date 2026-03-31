@@ -586,6 +586,42 @@ st.markdown(
 st.markdown(
     """
     <div class="timeline">
+    
+      <div class="t-item work">
+        <div class="t-date">Aug 2025 - May 2026</div>
+        <div class="t-role">Graduate Researcher - Deep Learning and Cloud Technology</div>
+        <div class="t-org">The University of Arizona</div>
+        <p class="t-desc">
+          - Leveraged AWS to build cloud infrastructure and CI/ CD pipelines for a full-stack student degree planner web application.
+          </p>
+        <p class="t-desc">
+          - Leveraged GloVe embeddings, built classification models, and fine-tuned BERT to solve several NLP (Semeval) tasks.
+          </p>
+        <p class="t-desc">
+          - Fine-tuned MusicGen (Audio Language Model) using LoRA adapters to enhance cultural domain adaptation of Large Music Models.
+          </p>
+        <p class="t-desc">
+          - Identified challenges in Carnatic Raga classification through systematic research and designed a LSTM-CNN pipeline for classification.
+          </p>
+        <p class="t-desc">
+          - Implemented a CV pipeline for suture analysis using Roboflow-based annotation/ augmentation, and YOLO for object detection.
+          </p>
+        <div class="t-tags">
+          <span class="t-tag">AWS CodePipeline</span>          
+          <span class="t-tag">AWS CodeBuild</span>          
+          <span class="t-tag">AWS Amplify</span>          
+          <span class="t-tag">AWS Lambda</span>          
+          <span class="t-tag">AWS S3</span>
+          <span class="t-tag">AWS DynamoDB</span>
+          <span class="t-tag">AWS ECR</span>
+          <span class="t-tag">AWS ECS</span>
+          <span class="t-tag">Fine Tuning LLMs/ ALMs</span>
+          <span class="t-tag">Semantic Textual Similarity</span>
+          <span class="t-tag">Digital Signal Processing</span>
+          <span class="t-tag">Audio Embeddings</span>
+          <span class="t-tag">Deep Learning</span>
+        </div>
+      </div>
 
       <div class="t-item work">
         <div class="t-date">Oct 2023 - Jul 2025</div>
