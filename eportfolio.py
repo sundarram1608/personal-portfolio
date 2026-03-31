@@ -592,8 +592,10 @@ st.markdown(
         <div class="t-role">Deputy Manager - Data Science & Advanced Analytics</div>
         <div class="t-org">Titan Company Limited</div>
         <p class="t-desc">
-          Spearheaded the Data Centre of Excellence, leveraging Generative AI & Machine Learning Models 
-          to build & deploy Deep Learning pipelines and web applications for Analytics use cases with Python & SQL.
+          Spearheaded the Data Centre of Excellence, using Python & SQL 
+          to collect, curate, and preprocess structured and unstructured data, 
+          leveraging Generative AI & Machine Learning models to build & deploy ML pipelines and web applications/ dashboards 
+          for several use cases, including topic modeling, text/audio mining, content generation, image, and business analytics.
         </p>
         <p class="t-desc">
           &nbsp;
