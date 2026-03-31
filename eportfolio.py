@@ -601,14 +601,14 @@ st.markdown(
         <p class="t-desc">
           <span class="highlight-key">Sentiment Analytics (GenAI):</span> Developed LLM-powered sentiment analysis web application
           using OpenAI’s API and Streamlit for the Marketing and Merchandise teams that delivered competitive insights, 
-          improving targeted campaigning and product planning outcomes by ~ 15%.
+          improving targeted campaigning and product planning outcomes by ~ 20%.
         </p>
         <p class="t-desc">
           &nbsp;
         </p>
         <p class="t-desc">
           <span class="highlight-key">Merchandise Copilot (GenAI):</span> Built an LLM-driven pipeline using OpenAI’s APIs to analyze textual and audio feedback from 
-          non-purchasers, enabling the Merchandise team to optimize product assortment and drive ~ 15 to 18% sales uplift per stored
+          non-purchasers, enabling the Merchandise team to optimize product assortment and drive ~ 20% sales uplift per stored
         </p>
         <p class="t-desc">
           &nbsp;
