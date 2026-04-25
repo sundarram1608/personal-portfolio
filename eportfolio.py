@@ -538,17 +538,16 @@ with col2:
                   Based in Tucson, Arizona, I am <span style="color: #f5c542; font-weight: 500;">graduating May 2026</span> with a Master’s in Machine Learning from the University of Arizona.
                   </p>
                   <p>
-                  My career began with Titan Company Limited as Lead – New Product Development, where I transformed data into
-                  actionable insights <span class="highlight-name" style="font-weight: 500;">driving business growth and innovation</span>.
-                  My analytical acumen identified a <span class="highlight-name" style="font-weight: 500;">₹1B opportunity</span>, resulting in the first-ever skeletal quartz watch for the Sonata brand, driving a paradigm shift in brand perception. 
+                  My career began with Titan Company Limited as Lead Data Scientist– New Product Development, where I transformed data into
+                  actionable insights <span class="highlight-name" style="font-weight: 500;">driving Manufacturing Analytics, Business Growth and Innovation</span>.
+                  My analytical acumen identified a <span class="highlight-name" style="font-weight: 500;">₹1B opportunity</span>, resulting in the first-ever skeletal quartz watch for the Sonata brand, driving a paradigm shift in brand perception and <span class="highlight-name" style="font-weight: 500;">170% growth in that price band.</span>
                   I further built robust decision support systems that achieved a <span class="highlight-name" style="font-weight: 500;">75–80% reduction in costs and manufacturing lead times</span>. 
                   These experiences led me to formalize my data science expertise through a Post Graduate Program in Data Science & Business Analytics from The University of Texas at Austin. 
                   </p>
                   <p>
                   Quick to notice my potential, Titan inducted me into its <span class="highlight-name" style="font-weight: 500;">Young Leadership Program (top 12%)</span> with a
-                  sponsored PG in Business Management from XLRI. During this program, I led initiatives <span class="highlight-name" style="font-weight: 500;">product attribution & consumer analytics</span>, optimizing inventory and driving <span class="highlight-name" style="font-weight: 500;">29% sales growth</span> in Titan Wedding Jewelry.
-                  Subsequently, I spearheaded Titan’s Data Centre of Excellence, building production-grade <span class="highlight-name" style="font-weight: 500;">ML and LLM pipelines</span> along with <span class="highlight-name" style="font-weight: 500;">Streamlit dashboards</span> that delivered 20–25% improvements in measurable business outcomes, ultimately motivating
-                  my pursuit of a Master’s in Machine Learning at the University of Arizona, where I focus on Deep Learning and Information Retrieval for Natural Language Processing, Computer Vision and Music applications.
+                  sponsored Post Graduation in Business Management from XLRI while at work. During this program, I led initiatives including <span class="highlight-name" style="font-weight: 500;">product attribution & consumer analytics</span>, optimizing inventory, and driving <span class="highlight-name" style="font-weight: 500;">29% sales growth</span> in Titan Wedding Jewelry.
+                  Subsequently, I spearheaded Titan's Data Centre of Excellence, building production-grade <span class="highlight-name" style="font-weight: 500;">ML and LLM pipelines</span> along with <span class="highlight-name" style="font-weight: 500;">Streamlit dashboards for Business Analytics</span> that delivered 20–25% improvements in measurable business outcomes. This work spanned <span class="highlight-name" style="font-weight: 500;">geospatial and consumer analytics, merchandising analytics, marketing content generation, text mining, and image analytics</span> across a variety of use cases, including network expansion and retail store segmentation for the International Business Division; ultimately motivating my pursuit of a Master's in Machine Learning at the University of Arizona. As a Graduate Researcher, As a Graduate researcher, I fine-tune Multi-modal Large Language Models for domain adaptation, design and build customized Deep Learning pipelines including Computer Vision for object detection and CNN-LSTM for time series music data, and implement CI/CD pipelines in AWS for university web applications.
                   </p>
                   <p>
                   I am driven to apply these skills to the most complex business challenges, spanning robust <span class="highlight-name" style="font-weight: 500;">deep learning pipelines for Multimodal applications</span>, as well as inferring <span class="highlight-name" style="font-weight: 500;">causal relationships in advanced analytics that translate data into actionable insights.</span></div>
@@ -592,21 +591,25 @@ st.markdown(
         <div class="t-role">Graduate Researcher - Deep Learning and Cloud Technology</div>
         <div class="t-org">The University of Arizona</div>
         <p class="t-desc">
-          - Leveraged AWS to build cloud infrastructure and CI/ CD pipelines for a full-stack student degree planner web application.
+          - Leveraged LoRA to fine-tune MusicGen (Music Language Model) for cultural domain adaptation of Large Music Models.
           </p>
         <p class="t-desc">
           - Leveraged GloVe embeddings, built classification models, and fine-tuned BERT to solve several NLP (Semeval) tasks.
           </p>
         <p class="t-desc">
-          - Fine-tuned MusicGen (Audio Language Model) using LoRA adapters to enhance cultural domain adaptation of Large Music Models.
+          - Designed an LSTM-CNN pipeline for Raga classification & identified the core challenges through analysis of audio embeddings.
           </p>
         <p class="t-desc">
-          - Identified challenges in Carnatic Raga classification through systematic research and designed a LSTM-CNN pipeline for classification.
+          - Built a custom CV pipeline for suture analysis using Roboflow-based annotation/ augmentation, and YOLO for object detection.
           </p>
         <p class="t-desc">
-          - Implemented a CV pipeline for suture analysis using Roboflow-based annotation/ augmentation, and YOLO for object detection.
+          - Leveraged AWS to build cloud infrastructure and CI/ CD pipelines for a full-stack student degree planner web application.
           </p>
         <div class="t-tags">
+          <span class="t-tag">Deep Learning</span>
+          <span class="t-tag">Transfer Learning</span>
+          <span class="t-tag">Fine Tuning LLMs/ MLLMs</span>
+          <span class="t-tag">Semantic Textual Similarity</span>
           <span class="t-tag">AWS CodePipeline</span>          
           <span class="t-tag">AWS CodeBuild</span>          
           <span class="t-tag">AWS Amplify</span>          
@@ -615,24 +618,25 @@ st.markdown(
           <span class="t-tag">AWS DynamoDB</span>
           <span class="t-tag">AWS ECR</span>
           <span class="t-tag">AWS ECS</span>
-          <span class="t-tag">Fine Tuning LLMs/ ALMs</span>
-          <span class="t-tag">Semantic Textual Similarity</span>
+          <span class="t-tag">Docker</span>
+          <span class="t-tag">Containerization</span>          
           <span class="t-tag">Digital Signal Processing</span>
           <span class="t-tag">Audio Embeddings</span>
-          <span class="t-tag">Deep Learning</span>
+          <span class="t-tag">Computer Vision</span>          
+          <span class="t-tag">Image Annotation</span>          
+          <span class="t-tag">Object Detection</span>          
         </div>
       </div>
 
       <div class="t-item work">
         <div class="t-date">Oct 2023 - Jul 2025</div>
-        <div class="t-role">Deputy Manager - Data Science & Advanced Analytics</div>
+        <div class="t-role">Assistant Manager - Data Science & Advanced Analytics</div>
         <div class="t-org">Titan Company Limited</div>
         <p class="t-desc">
           Spearheaded the Data Centre of Excellence, using Python & SQL 
-          to collect, curate, and preprocess structured and unstructured data, 
-          leveraging Generative AI & Machine Learning models to build & deploy ML pipelines and web applications/ dashboards 
-          for several use cases, including topic modeling, text/audio mining, content generation, image, and business analytics.
-        </p>
+          to curate structured and unstructured data, 
+          building and deploying scalable Gen AI/ ML/ fine-tuning pipelines, streamlit-powered dashboards, including LLM-based 
+          applications for text analytics, and content generation to solve advanced Business problems, driving 20–25% improvement in measurable business outcomes.        </p>
         <p class="t-desc">
           &nbsp;
         </p>
