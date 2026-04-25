@@ -1410,7 +1410,7 @@ st.markdown(
                         Email
                     </a>
                     <!-- View CV button -->
-                <a href="https://drive.google.com/file/d/1Wsq-UTvrQ_fJI068q-H5M4kLvqIgWc3V/view?usp=share_link"
+                <a href="https://drive.google.com/file/d/1enWKRWrHvbzrqV9s9vhJ6eg5NcJFfjQx/view?usp=share_link"
                    target="_blank"
                    rel="noopener noreferrer"
                    class="cta-button-resume">
