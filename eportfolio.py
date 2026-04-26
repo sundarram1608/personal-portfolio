@@ -1458,7 +1458,7 @@ with col2:
                 """,
                 unsafe_allow_html=True,
             )
-    selected_categories = ["Convolutional Neural Networks", "Generative Adversarial Networks (GANs)", "Reinforcement Learning"]
+    selected_categories = ["Convolutional Neural Networks", "GAN", "Reinforcement Learning"]
     categories = st.pills(
                             "",
                             selected_categories,
