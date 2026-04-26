@@ -864,108 +864,140 @@ st.markdown(
           )
 
 
+# ===== FIRST ROW =====
 col1, col2, col3 = st.columns(3, vertical_alignment="top")
 
 with col1:
-  with st.container(border=True, height=550):
-    st.markdown(
-                f"""
-                <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin-bottom: 0;">
-                  <div><span class="highlight-name">Google Review Analytics</span></div>
-                </h4>
-                """,
-                unsafe_allow_html=True,
-            )
-    img_path = BASE_DIR / "images" / "gmbsentimentanalytics.jpg"
-    st.image(img_path, use_container_width=True)
-    selected_categories = ["Generative AI", "Web App Development", "Data Visualization", "Dashboarding"]
-    categories = st.pills(
-                            "",
-                            selected_categories,
-                            selection_mode="multi",
-                            default=selected_categories,
-                            key=f"project_categories_f1"
-                        )
-    st.markdown(
-                """
-                <a href="https://github.com/sundarram1608/Google-Review-Analytics.git" target="_blank" class="t-link">↗︎ Code Repo</a> - for more details.
-                <a href="https://sentiment-analytics-g-reviews.streamlit.app/" target="_blank" class="t-link"> &nbsp;&nbsp;↗︎web application</a>
-                """,
-                unsafe_allow_html=True,
-              )
-    st.markdown("""
-                    Leveraged OpenAI GPT models to translate unstructured customer reviews into actionable consumer insights. 
-                    Also built a Streamlit-powered UI to visualize insights.
-                """)
+    with st.container(border=True, height=550):
+        st.markdown(
+            f"""
+            <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin-bottom: 0;">
+              <div><span class="highlight-name">Google Review Analytics</span></div>
+            </h4>
+            """,
+            unsafe_allow_html=True,
+        )
+        img_path = BASE_DIR / "images" / "gmbsentimentanalytics.jpg"
+        st.image(img_path, use_container_width=True)
+        selected_categories = ["Generative AI", "Web App Development", "Data Visualization", "Dashboarding"]
+        categories = st.pills(
+            "",
+            selected_categories,
+            selection_mode="multi",
+            default=selected_categories,
+            key=f"project_categories_f1"
+        )
+        st.markdown(
+            """
+            <a href="https://github.com/sundarram1608/Google-Review-Analytics.git" target="_blank" class="t-link">↗︎ Code Repo</a> - for more details.
+            <a href="https://sentiment-analytics-g-reviews.streamlit.app/" target="_blank" class="t-link"> &nbsp;&nbsp;↗︎web application</a>
+            """,
+            unsafe_allow_html=True,
+        )
+        st.markdown("""
+            Leveraged OpenAI GPT models to translate unstructured customer reviews into actionable consumer insights. 
+            Also built a Streamlit-powered UI to visualize insights.
+        """)
 
 with col2:
-  with st.container(border=True, height=550):
+    # ===== NEW DUMMY PROJECT =====
+    with st.container(border=True, height=550):
+        st.markdown(
+            f"""
+            <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin-bottom: 0;">
+              <div><span class="highlight-name">Dummy Project Title</span></div>
+            </h4>
+            """,
+            unsafe_allow_html=True,
+        )
+        img_path = BASE_DIR / "images" / "dummy.jpg"
+        st.image(img_path, use_container_width=True)
+        selected_categories = ["Category A", "Category B", "Category C"]
+        categories = st.pills(
+            "",
+            selected_categories,
+            selection_mode="multi",
+            default=selected_categories,
+            key=f"project_categories_f2"
+        )
+        st.markdown(
+            """
+            <a href="https://github.com/sundarram1608/dummy-project.git" target="_blank" class="t-link">↗︎ Code Repo</a> - for more details.
+            """,
+            unsafe_allow_html=True,
+        )
+        st.markdown("""
+            This is a placeholder description for the new project. Replace this text with a short summary 
+            of the project's goals, the techniques used, and the outcomes achieved.
+        """)
 
-    st.markdown(
-                f"""
-                <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin-bottom: 0;">
-                  <div><span class="highlight-name">Semantic Evaluation</span></div>
-                </h4>
-                """,
-                unsafe_allow_html=True,
-            )
-    img_path = BASE_DIR / "images" / "nlp.jpg"
-
-    st.image(img_path, use_container_width=True)
-    selected_categories = ["Deep Learning", "NLP", "Fine-Tuning", "Transfer Learning"]
-    categories = st.pills(
-                            "",
-                            selected_categories,
-                            selection_mode="multi",
-                            default=selected_categories,
-                            key=f"project_categories_f2"
-                        )
-    st.markdown(
-                """
-                <a href="https://github.com/sundarram1608/nlp_projects.git" target="_blank" class="t-link">↗︎ Code Repo</a> - for more details.
-                """,
-                unsafe_allow_html=True,
-              )
-    st.markdown("""
-                    This project involved solving certain Semeval shared tasks of 2019, 2020 and 2021, including Semantic Textual Similarity, OffensEval, MeasEval & ComVe. 
-                    The tasks involved NLP techniques of Text Preprocessing, Text Similarity, Text Classification and Sequence Processing.
-                    Concepts of GloVe (word embeddings), Word Mover's Distance, Cosine Similarities, Logistic Regression, Recurrent Neural Networks (RNNs), Convolutional Neural Networks (CNNs) and Fine-tuning of Pre-trained Language models like BERT and RoBERTa were applied.
-                """)
 with col3:
-  with st.container(border=True, height=550):    
-    st.markdown(
-                f"""
-                <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin-bottom: 0;">
-                  <div><span class="highlight-name">Carnatic Music Raga Identification</span></div>
-                </h4>
-                """,
-                unsafe_allow_html=True,
-            )
-    img_path = BASE_DIR / "images" / "carnatic.jpg"
+    # ===== SEMANTIC EVALUATION (moved from col2) =====
+    with st.container(border=True, height=550):
+        st.markdown(
+            f"""
+            <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin-bottom: 0;">
+              <div><span class="highlight-name">Semantic Evaluation</span></div>
+            </h4>
+            """,
+            unsafe_allow_html=True,
+        )
+        img_path = BASE_DIR / "images" / "nlp.jpg"
+        st.image(img_path, use_container_width=True)
+        selected_categories = ["Deep Learning", "NLP", "Fine-Tuning", "Transfer Learning"]
+        categories = st.pills(
+            "",
+            selected_categories,
+            selection_mode="multi",
+            default=selected_categories,
+            key=f"project_categories_f3"
+        )
+        st.markdown(
+            """
+            <a href="https://github.com/sundarram1608/nlp_projects.git" target="_blank" class="t-link">↗︎ Code Repo</a> - for more details.
+            """,
+            unsafe_allow_html=True,
+        )
+        st.markdown("""
+            This project involved solving certain Semeval shared tasks of 2019, 2020 and 2021, including Semantic Textual Similarity, OffensEval, MeasEval & ComVe. 
+            The tasks involved NLP techniques of Text Preprocessing, Text Similarity, Text Classification and Sequence Processing.
+            Concepts of GloVe (word embeddings), Word Mover's Distance, Cosine Similarities, Logistic Regression, Recurrent Neural Networks (RNNs), Convolutional Neural Networks (CNNs) and Fine-tuning of Pre-trained Language models like BERT and RoBERTa were applied.
+        """)
 
-    st.image(img_path, use_container_width=True)
-    
-    # st.image("images/carnatic.jpg", use_container_width=False)
-    selected_categories = ["Deep Learning Pipeline", "Music Information Retrieval"]
-    categories = st.pills(
-                            "",
-                            selected_categories,
-                            selection_mode="multi",
-                            default=selected_categories,
-                            key=f"project_categories_f3"
-                        )
-    st.markdown(
-                """
-                <a href="https://github.com/sundarram1608/Carnatic-Music-Raga-Identification-using-MIR-and-Deep-Learning.git" target="_blank" class="t-link">↗︎ Code Repo</a> - for more details.
-                """,
-                unsafe_allow_html=True,
-              )
-    st.markdown("""
-                    This project leverages MIR techniques to extract and analyze Carnatic audio for 8 melakartha ragas, 
-                    followed by building a fusion deep learning model (CNN+LSTM) for Raga classification.
-                """)
+# # ===== SECOND ROW =====
+# col1_r2, col2_r2, col3_r2 = st.columns(3, vertical_alignment="top")
 
-# -----------------------------
+with col2:
+    # ===== CARNATIC MUSIC RAGA IDENTIFICATION (moved from row 1, col3) =====
+    with st.container(border=True, height=550):
+        st.markdown(
+            f"""
+            <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin-bottom: 0;">
+              <div><span class="highlight-name">Carnatic Music Raga Identification</span></div>
+            </h4>
+            """,
+            unsafe_allow_html=True,
+        )
+        img_path = BASE_DIR / "images" / "carnatic.jpg"
+        st.image(img_path, use_container_width=True)
+        selected_categories = ["Deep Learning Pipeline", "Music Information Retrieval"]
+        categories = st.pills(
+            "",
+            selected_categories,
+            selection_mode="multi",
+            default=selected_categories,
+            key=f"project_categories_f4"
+        )
+        st.markdown(
+            """
+            <a href="https://github.com/sundarram1608/Carnatic-Music-Raga-Identification-using-MIR-and-Deep-Learning.git" target="_blank" class="t-link">↗︎ Code Repo</a> - for more details.
+            """,
+            unsafe_allow_html=True,
+        )
+        st.markdown("""
+            This project leverages MIR techniques to extract and analyze Carnatic audio for 8 melakartha ragas, 
+            followed by building a fusion deep learning model (CNN+LSTM) for Raga classification.
+        """)# -----------------------------
 # ALL PROJECTS
 # -----------------------------
 
