@@ -965,8 +965,6 @@ with col3:
             Concepts of GloVe (word embeddings), Word Mover's Distance, Cosine Similarities, Logistic Regression, Recurrent Neural Networks (RNNs), Convolutional Neural Networks (CNNs) and Fine-tuning of Pre-trained Language models like BERT and RoBERTa were applied.
         """)
 
-# # ===== SECOND ROW =====
-# col1_r2, col2_r2, col3_r2 = st.columns(3, vertical_alignment="top")
 
 with col2:
     # ===== CARNATIC MUSIC RAGA IDENTIFICATION (moved from row 1, col3) =====
@@ -998,7 +996,9 @@ with col2:
         st.markdown("""
             This project leverages MIR techniques to extract and analyze Carnatic audio for 8 melakartha ragas, 
             followed by building a fusion deep learning model (CNN+LSTM) for Raga classification.
-        """)# -----------------------------
+        """)
+
+# -----------------------------
 # ALL PROJECTS
 # -----------------------------
 
