@@ -910,7 +910,7 @@ with col2:
             """,
             unsafe_allow_html=True,
         )
-        img_path = BASE_DIR / "images" / "dummy.jpg"
+        img_path = BASE_DIR / "images" / "gmbsentimentanalytics.jpg"
         st.image(img_path, use_container_width=True)
         selected_categories = ["Category A", "Category B", "Category C"]
         categories = st.pills(
