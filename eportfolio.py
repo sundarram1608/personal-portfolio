@@ -909,7 +909,7 @@ with col2:
             """,
             unsafe_allow_html=True,
         )
-        img_path = BASE_DIR / "images" / "gmbsentimentanalytics.jpg"
+        img_path = BASE_DIR / "images" / "musicgen.jpg"
         st.image(img_path, use_container_width=True)
         selected_categories = ["Transfer Learning", "LoRA", "Finetuning", "MLLMs", "MusicGen", "Carnatic Music"]
         categories = st.pills(
