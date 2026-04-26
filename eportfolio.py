@@ -897,42 +897,8 @@ with col1:
                     Leveraged OpenAI GPT models to translate unstructured customer reviews into actionable consumer insights. 
                     Also built a Streamlit-powered UI to visualize insights.
                 """)
+
 with col2:
-  with st.container(border=True, height=550):
-
-    st.markdown(
-                f"""
-                <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin-bottom: 0;">
-                  <div><span class="highlight-name">Finetuning Foundational Music Model using LoRA</span></div>
-                </h4>
-                """,
-                unsafe_allow_html=True,
-            )
-    img_path = BASE_DIR / "images" / "nlp.jpg"
-
-    st.image(img_path, use_container_width=True)
-    selected_categories = ["Deep Learning", "NLP", "Fine-Tuning", "Transfer Learning"]
-    categories = st.pills(
-                            "",
-                            selected_categories,
-                            selection_mode="multi",
-                            default=selected_categories,
-                            key=f"project_categories_f2"
-                        )
-    st.markdown(
-                """
-                <a href="https://github.com/sundarram1608/nlp_projects.git" target="_blank" class="t-link">↗︎ Code Repo</a> - for more details.
-                """,
-                unsafe_allow_html=True,
-              )
-    st.markdown("""
-                    This project involved solving certain Semeval shared tasks of 2019, 2020 and 2021, including Semantic Textual Similarity, OffensEval, MeasEval & ComVe. 
-                    The tasks involved NLP techniques of Text Preprocessing, Text Similarity, Text Classification and Sequence Processing.
-                    Concepts of GloVe (word embeddings), Word Mover's Distance, Cosine Similarities, Logistic Regression, Recurrent Neural Networks (RNNs), Convolutional Neural Networks (CNNs) and Fine-tuning of Pre-trained Language models like BERT and RoBERTa were applied.
-                """)
-    
-
-with col3:
   with st.container(border=True, height=550):
 
     st.markdown(
@@ -965,7 +931,7 @@ with col3:
                     The tasks involved NLP techniques of Text Preprocessing, Text Similarity, Text Classification and Sequence Processing.
                     Concepts of GloVe (word embeddings), Word Mover's Distance, Cosine Similarities, Logistic Regression, Recurrent Neural Networks (RNNs), Convolutional Neural Networks (CNNs) and Fine-tuning of Pre-trained Language models like BERT and RoBERTa were applied.
                 """)
-with col2:
+with col3:
   with st.container(border=True, height=550):    
     st.markdown(
                 f"""
