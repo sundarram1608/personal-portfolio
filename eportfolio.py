@@ -900,19 +900,18 @@ with col1:
         """)
 
 with col2:
-    # ===== NEW DUMMY PROJECT =====
     with st.container(border=True, height=550):
         st.markdown(
             f"""
             <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin-bottom: 0;">
-              <div><span class="highlight-name">Dummy Project Title</span></div>
+              <div><span class="highlight-name">Finetuning Foundational Music Model</span></div>
             </h4>
             """,
             unsafe_allow_html=True,
         )
         img_path = BASE_DIR / "images" / "gmbsentimentanalytics.jpg"
         st.image(img_path, use_container_width=True)
-        selected_categories = ["Category A", "Category B", "Category C"]
+        selected_categories = ["Transfer Learning", "LoRA", "Finetuning", "MLLMs", "MusicGen", "Carnatic Music"]
         categories = st.pills(
             "",
             selected_categories,
@@ -922,13 +921,15 @@ with col2:
         )
         st.markdown(
             """
-            <a href="https://github.com/sundarram1608/dummy-project.git" target="_blank" class="t-link">↗︎ Code Repo</a> - for more details.
+            <a href="https://github.com/sundarram1608/finetuning-musicgen-small-carnatic-continuation.git" target="_blank" class="t-link">↗︎ Code Repo</a> - for more details.
+            <a href="https://capstone-user-evaluation-survey.streamlit.app" target="_blank" class="t-link">↗︎ Listening Study</a> - Perceptual evaluation.
             """,
             unsafe_allow_html=True,
         )
         st.markdown("""
-            This is a placeholder description for the new project. Replace this text with a short summary 
-            of the project's goals, the techniques used, and the outcomes achieved.
+            This project leverages LoRA to fine-tune MusicGen by Meta on ~10 hours of licensed Carnatic Music 
+            from the Indian Art Music Raga Recognition Dataset, using an audio-to-audio continuation framework.
+            The goal is to generate stylistically coherent Carnatic continuations. 
         """)
 
 with col3:
@@ -1269,10 +1270,10 @@ st.markdown(
 
 
 skills_map = {
-                "Machine Learning, AI & Data Science": ["NLP", "RAG", "LLM Fine-tuning", "Computer Vision", "Information Retrieval", "Prompt Engineering", "Business Analytics"],
+                "Machine Learning, AI & Data Science": ["NLP", "RAG", "Transfer Learning", "LLM Fine-tuning", "LoRA", "Computer Vision", "Information Retrieval", "Prompt Engineering", "Business Analytics"],
                 "Programming & Databases": ["Python", "SQL", "C++", "MySQL", "Amazon Redshift"],
-                "ML & Data science Libraries": ["TensorFlow", "PyTorch", "Keras", "Scikit-learn", "Transformers", "SciPy", "OpenCV", "YOLO", "Pandas", "Numpy", "Matplotlib", "Seaborn", "Boto3", "mysql"],
-                "Cloud, MLOps & ML App Development": ["AWS SageMaker", "AWS S3", "JupyterLab", "Streamlit", "web applications", "dashboards"],
+                "ML & Data science Libraries": ["TensorFlow", "PyTorch", "Keras", "Scikit-learn", "Transformers", "gensim", "SciPy", "OpenCV", "YOLO", "Pandas", "Numpy", "Matplotlib", "Seaborn", "Boto3", "mysql", "librosa"],
+                "Cloud, MLOps & ML App Development": ["AWS", "CI/CD pipelines", "App Deployment", "Streamlit", "Web Applications", "dashboards"],
                 "Analytics, BI Tools & Version Control": ["Tableau", "Power BI", "Advanced Excel", "KNIME", "Git", "GitHub"],
                 "Product & Program Management": ["Product Development", "Project Management", "Stakeholder Management", "Vendor Management"],
             }
@@ -1475,6 +1476,13 @@ st.markdown(
                  aria-label="GitHub">
                 <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub" />
               </a>
+              <a class="social-btn"
+                 href="https://medium.com/@sundarram1997"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="Medium">
+                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/medium.svg" alt="Medium" />
+              </a>
             </div>""",
                 unsafe_allow_html=True,
             )
@@ -1504,7 +1512,7 @@ st.divider()
 st.markdown(
             """
             <div style="text-align:center; opacity:0.7; font-size:1rem;">
-                ⓒ Jan 2026 ⊙ Sundar Ram Subramanian ⊙ Built with Streamlit
+                ⓒ Apr 2026 ⊙ Sundar Ram Subramanian ⊙ Built with Streamlit
             </div>
             """,
             unsafe_allow_html=True,
