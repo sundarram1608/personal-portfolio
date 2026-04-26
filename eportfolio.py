@@ -1416,6 +1416,101 @@ with col3:
                   """,
                   unsafe_allow_html=True,
               )
+
+with col1:
+  with st.container(border=True, height=220, horizontal_alignment="center"):
+    st.markdown(
+                f"""
+                <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin: 0 0 -1px 0;line-height: 1.2;">
+                <span class="highlight-name">Keras</span>
+                </h4>
+                """,
+                unsafe_allow_html=True,
+            )
+    selected_categories = ["Transfer Learning", "Image Analytics", "Model Training & Optimization"]
+    categories = st.pills(
+                            "",
+                            selected_categories,
+                            selection_mode="multi",
+                            default=selected_categories,
+                            key=f"keras"
+                        )
+    st.markdown(
+                  """
+                  <div style="text-align: center;">
+                      <a href="https://coursera.org/share/bb546ae9b9c37d74aa776c38caaa39eb"
+                        target="_blank"
+                        class="t-link">
+                          ↗︎ View Credentials
+                      </a>
+                  </div>
+                  """,
+                  unsafe_allow_html=True,
+              )
+
+with col2:
+  with st.container(border=True, height=220, horizontal_alignment="center"):
+    st.markdown(
+                f"""
+                <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin: 0 0 -1px 0;line-height: 1.2;">
+                <span class="highlight-name">Tensorflow</span>
+                </h4>
+                """,
+                unsafe_allow_html=True,
+            )
+    selected_categories = ["Convolutional Neural Networks", "Generative Adversarial Networks (GANs)", "Reinforcement Learning"]
+    categories = st.pills(
+                            "",
+                            selected_categories,
+                            selection_mode="multi",
+                            default=selected_categories,
+                            key=f"tensorflow"
+                        )
+    st.markdown(
+                  """
+                  <div style="text-align: center;">
+                      <a href="https://coursera.org/share/5fb0e8d0e7a80221bd40f1deca137df2"
+                        target="_blank"
+                        class="t-link">
+                          ↗︎ View Credentials
+                      </a>
+                  </div>
+                  """,
+                  unsafe_allow_html=True,
+              )
+
+
+with col3:
+  with st.container(border=True, height=220, horizontal_alignment="center"):
+    st.markdown(
+                f"""
+                <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin: 0 0 -1px 0;line-height: 1.2;">
+                <span class="highlight-name">PyTorch</span>
+                </h4>
+                """,
+                unsafe_allow_html=True,
+            )
+    selected_categories = ["Data Processing", "Applied Machine Learning", "Reinforcement Learning"]
+    categories = st.pills(
+                            "",
+                            selected_categories,
+                            selection_mode="multi",
+                            default=selected_categories,
+                            key=f"pytorch"
+                        )
+    st.markdown(
+                  """
+                  <div style="text-align: center;">
+                      <a href="https://coursera.org/share/c6815fb841b1b901c6608310647b516f"
+                        target="_blank"
+                        class="t-link">
+                          ↗︎ View Credentials
+                      </a>
+                  </div>
+                  """,
+                  unsafe_allow_html=True,
+              )
+
         
 
 # -----------------------------
