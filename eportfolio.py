@@ -429,7 +429,7 @@ st.markdown(
                                 overflow: hidden;
                                 box-shadow: 0 0 50px #f5c542;
                                 border: 1px solid #f5c542;
-
+                                transform: translateY(50px);
                                 margin: auto;
                             }
               
