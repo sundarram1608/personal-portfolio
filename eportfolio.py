@@ -471,19 +471,21 @@ st.markdown(
                       Sundar Ram Subramanian
                   </h1>
                   <h3 style="font-weight:600; color:#fcfcfc; font-size:3rem;">
-                      <span class="highlight-name">Data Scientist</span><span class="highlight-name"> & </span><span class="highlight-name">Machine Learning Engineer</span>
+                      <span class="highlight-name">AI Engineer</span>
                   </h3>               
                   <h4 style="font-size: 2rem; font-weight: 300;">
-                      Leveraging Deep Learning and Information Retrieval techniques 
+                      Leveraging Generative AI and Deep Learning techniques 
                       <div>
                       <span class="highlight-name" style="font-weight: 500;">
-                      to decipher patterns into purpose and causal relationships </span></div>
+                      to build systems that decipher patterns into purpose and causal relationships </span></div>
                       for meaningful impact and global well-being!
                   </h4>
               </div>
               """,
               unsafe_allow_html=True,
           )
+#                       <span class="highlight-name">Data Scientist</span><span class="highlight-name"> & </span><span class="highlight-name">Machine Learning Engineer</span>
+#                       Leveraging Deep Learning and Information Retrieval techniques 
 
 st.markdown(
               """         
@@ -515,7 +517,7 @@ st.markdown(
          )
 
 # Two side-by-side containers
-col1, col2 = st.columns([1, 2], vertical_alignment="top")
+col1, col2 = st.columns([1.5, 2.5], vertical_alignment="top")
 
 with col1:
   img_path = BASE_DIR / "images" / "profilepicture.jpg"
