@@ -423,22 +423,35 @@ st.markdown(
                             }
                             
               .circle-image {
-                                width: 240px !important;
-                                height: 240px !important;
-                                border-radius: 50%;
-                                overflow: hidden;
-                                box-shadow: 0 0 50px #f5c542;
-                                border: 1px solid #f5c542;
-                                transform: translateY(0) !important;
-                                margin: 10px auto 30px auto !important;
-                                box-shadow: 0 0 25px #f5c542 !important;
-                            }
+                            width: 400px;
+                            height: 400px;
+                            border-radius: 50%;
+                            overflow: hidden;
+                            box-shadow: 0 0 50px #f5c542;
+                            border: 1px solid #f5c542;
+                            transform: translateY(50px);
+                            margin: auto;
+                        }
               
               .circle-image img {
                                     width: 100%;
                                     height: 100%;
                                     object-fit: cover;
                                 }
+
+
+            /* ===== MOBILE-ONLY OVERRIDE FOR CIRCLE IMAGE ===== */
+            /* This block ONLY activates when viewport is 768px or narrower */
+              @media only screen and (max-width: 768px) {
+                .circle-image {
+                                width: 240px !important;
+                                height: 240px !important;
+                                transform: translateY(0px) !important;
+                                margin: 10px auto 30px auto !important;
+                                box-shadow: 0 0 25px #f5c542 !important;
+                            }
+            }
+                                
             </style>""",
             unsafe_allow_html=True #<a href="#academic-journey">Academic Journey</a>
           )
