@@ -1286,7 +1286,7 @@ st.markdown(
 
 
 skills_map = {
-                "Machine Learning, AI & Data Science": ["NLP", "RAG", "Transfer Learning", "LLM Fine-tuning", "LoRA", "Computer Vision", "Information Retrieval", "Prompt Engineering", "Business Analytics"],
+                "Machine Learning, AI & Data Science": ["Agentic AI", "NLP", "RAG", "Transfer Learning", "LLM Fine-tuning", "LoRA", "Computer Vision", "Information Retrieval", "Prompt Engineering", "Business Analytics"],
                 "Programming & Databases": ["Python", "SQL", "C++", "MySQL", "Amazon Redshift"],
                 "ML & Data science Libraries": ["TensorFlow", "PyTorch", "Keras", "Scikit-learn", "Transformers", "gensim", "SciPy", "OpenCV", "YOLO", "Pandas", "Numpy", "Matplotlib", "Seaborn", "Boto3", "mysql", "librosa"],
                 "Cloud, MLOps & ML App Development": ["AWS", "CI/CD pipelines", "App Deployment", "Streamlit", "Web Applications", "dashboards"],
