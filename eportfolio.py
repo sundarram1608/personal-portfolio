@@ -1406,7 +1406,7 @@ with col1:
     st.markdown(
                   """
                   <div style="text-align: center;">
-                      <p>"Non Certificate course"</p>
+                      <p>Non Certificate course</p>
                   </div>
                   """,
                   unsafe_allow_html=True,
