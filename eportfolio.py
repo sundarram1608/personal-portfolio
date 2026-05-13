@@ -562,8 +562,9 @@ with col2:
                   </p>
                   <p>
                   Quick to notice my potential, Titan inducted me into its <span class="highlight-name" style="font-weight: 500;">Young Leadership Program (top 12%)</span> with a
-                  sponsored Post Graduation in Business Management from XLRI while at work. During this program, I led initiatives including <span class="highlight-name" style="font-weight: 500;">product attribution & consumer analytics</span>, optimizing inventory, and driving <span class="highlight-name" style="font-weight: 500;">29% sales growth</span> in Titan Wedding Jewelry.
-                  Subsequently, I spearheaded Titan's Data Centre of Excellence, building production-grade <span class="highlight-name" style="font-weight: 500;">ML and LLM pipelines</span> along with <span class="highlight-name" style="font-weight: 500;">Streamlit dashboards for Business Analytics</span> that delivered 20–25% improvements in measurable business outcomes. This work spanned <span class="highlight-name" style="font-weight: 500;">geospatial and consumer analytics, merchandising analytics, marketing content generation, text mining, and image analytics</span> across a variety of use cases, including <span class="highlight-name" style="font-weight: 500;">network expansion and retail store segmentation </span>for the International Business Division; ultimately motivating my pursuit of a Master's in Machine Learning at the University of Arizona. As a Graduate Researcher, I leverage <span class="highlight-name" style="font-weight: 500;">PEFT to fine-tune Multi-modal Large Language Models</span> for domain adaptation, design and build customized <span class="highlight-name" style="font-weight: 500;">Deep Learning pipelines</span> including <span class="highlight-name" style="font-weight: 500;">Computer Vision</span> for object detection and <span class="highlight-name" style="font-weight: 500;">CNN-LSTM </span>for time series music data, and <span class="highlight-name" style="font-weight: 500;">implement CI/CD pipelines in AWS</span> for university web applications.
+                  sponsored Post Graduation in Business Management from XLRI while at work. During this program, I led initiatives including <span class="highlight-name" style="font-weight: 500;">product attribution & consumer analytics</span>, optimizing inventory, and driving <span class="highlight-name" style="font-weight: 500;">30% sales growth</span> in Titan Wedding Jewelry.
+                  Subsequently, I spearheaded Titan's Data Centre of Excellence, building production-grade <span class="highlight-name" style="font-weight: 500;">LLM and Deep Learning pipelines</span> along with <span class="highlight-name" style="font-weight: 500;">Streamlit dashboards for Business Analytics</span> that delivered 35–40% improvements in measurable business outcomes. This work spanned <span class="highlight-name" style="font-weight: 500;">geospatial and consumer analytics, merchandising analytics, marketing content generation, text mining, and image analytics</span> across a variety of use cases, including <span class="highlight-name" style="font-weight: 500;">network expansion and retail store segmentation </span>for the International Business Division; ultimately motivating my pursuit of a Master's in Machine Learning at the University of Arizona. 
+                  As a Graduate Researcher, I leverage <span class="highlight-name" style="font-weight: 500;">Multi Agentic architecture </span> to solve business use-cases <span class="highlight-name" style="font-weight: 500;">PEFT to fine-tune Multi-modal Large Language Models</span> for domain adaptation, design and build customized <span class="highlight-name" style="font-weight: 500;">Deep Learning pipelines</span> including <span class="highlight-name" style="font-weight: 500;">Computer Vision</span> for object detection and <span class="highlight-name" style="font-weight: 500;">CNN-LSTM </span>for time series music data, and <span class="highlight-name" style="font-weight: 500;">implement CI/CD pipelines in AWS</span> for university web applications.
                   </p>
                   <p>
                   I am driven to apply these skills to the most complex business challenges, spanning robust <span class="highlight-name" style="font-weight: 500;">deep learning pipelines for Multimodal applications</span>, as well as inferring <span class="highlight-name" style="font-weight: 500;">causal relationships in advanced analytics that translate data into actionable insights.</span></div>
@@ -607,7 +608,10 @@ st.markdown(
         <div class="t-role">Graduate Researcher - Deep Learning and Cloud Technology</div>
         <div class="t-org">The University of Arizona</div>
         <p class="t-desc">
-          - Leveraged LoRA to fine-tune MusicGen (Music Language Model) for cultural domain adaptation of Large Music Models.
+          - Built a Multi Agentic Decision Support System for Jewelry Merchandising team to boost sales by ~30%.
+          </p>
+        <p class="t-desc">
+          - Leveraged LoRA to fine-tune MusicGen (Foundational Music Model) for Carnatic music with an improvement by ~70% in adaption.
           </p>
         <p class="t-desc">
           - Leveraged GloVe embeddings, built classification models, and fine-tuned BERT to solve several NLP (Semeval) tasks.
@@ -616,12 +620,17 @@ st.markdown(
           - Designed an LSTM-CNN pipeline for Raga classification & identified the core challenges through analysis of audio embeddings.
           </p>
         <p class="t-desc">
-          - Built a custom CV pipeline for suture analysis using Roboflow-based annotation/ augmentation, and YOLO for object detection.
+          - Developed a custom CV pipeline for suture analysis using Roboflow-based annotation/ augmentation, and YOLO for object detection.
           </p>
         <p class="t-desc">
           - Leveraged AWS to build cloud infrastructure and CI/ CD pipelines for a full-stack student degree planner web application.
           </p>
         <div class="t-tags">
+          <span class="t-tag">Agentic AI</span>
+          <span class="t-tag">Agentic Reflection</span>
+          <span class="t-tag">Agentic Tool Use</span>
+          <span class="t-tag">Agentic Evals</span>
+          <span class="t-tag">Multi Agentic Workflow</span>          
           <span class="t-tag">Deep Learning</span>
           <span class="t-tag">Transfer Learning</span>
           <span class="t-tag">Fine Tuning LLMs/ MLLMs</span>
@@ -652,21 +661,21 @@ st.markdown(
           Spearheaded the Data Centre of Excellence, using Python & SQL 
           to curate structured and unstructured data, 
           building and deploying scalable Gen AI/ ML/ fine-tuning pipelines, streamlit-powered dashboards, including LLM-based 
-          applications for text analytics, and content generation to solve advanced Business problems, driving 20–25% improvement in measurable business outcomes.        </p>
+          applications for data mining, text analytics, and content generation (image/ text) to solve advanced Business problems, driving 40–50% improvement in measurable business outcomes.        </p>
         <p class="t-desc">
           &nbsp;
         </p>
         <p class="t-desc">
           <span class="highlight-key">Sentiment Analytics (GenAI):</span> Developed LLM-powered sentiment analysis web application
           using OpenAI’s API and Streamlit for the Marketing and Merchandise teams that delivered competitive insights, 
-          improving targeted campaigning and product planning outcomes by ~ 20%.
+          improving targeted campaigning and product planning outcomes by ~ 30%.
         </p>
         <p class="t-desc">
           &nbsp;
         </p>
         <p class="t-desc">
           <span class="highlight-key">Merchandise Copilot (GenAI):</span> Built an LLM-driven pipeline using OpenAI’s APIs to analyze textual and audio feedback from 
-          non-purchasers, enabling the Merchandise team to optimize product assortment and drive ~ 20% sales uplift per stored
+          non-purchasers, enabling the Merchandise team to optimize product assortment and drive ~ 30% sales uplift per stored
         </p>
         <p class="t-desc">
           &nbsp;
@@ -675,7 +684,7 @@ st.markdown(
           <span class="highlight-key">Product Annotation and Content generation (GenAI):</span> 
           Delivered an LLM-driven pipeline using OpenAI’s API to extract prominent design elements from jewelry images, 
           automating product description generation and reducing manual effort by ~30 minutes per product, while facilitating design analytics that increased portfolio diversity 
-          and improved merchandise allocation decisions by ~15%.
+          and improved merchandise allocation decisions by ~35%.
         </p>
         <p class="t-desc">
           &nbsp;
@@ -683,7 +692,7 @@ st.markdown(
         <p class="t-desc">
           <span class="highlight-key">Customer Segmentation:</span> 
           Built a deep learning–based language classification pipeline to segment customers by mother tongue, integrated the model in the ETL pipeline, and automated mother tongue identification of new customers through AWS Glue,
-          enabling targeted marketing initiatives that improved CRM customer engagement metrics by ~20%.
+          enabling targeted marketing initiatives that improved CRM customer engagement metrics by ~60%.
         </p>
         <p class="t-desc">
           &nbsp;
@@ -713,7 +722,7 @@ st.markdown(
         <div class="t-role">Young Leadership Associate - Data Scientist (Merchandising)</div>
         <div class="t-org">Titan Company Limited</div>
         <p class="t-desc">
-          - Led product attribution and optimized inventory by demographic segments, which resulted 29% annual growth in wedding sales.
+          - Led product attribution and optimized inventory by demographic segments, which resulted ~30% annual growth in wedding sales.
         </p>
         <p class="t-desc">
           - Analyzed sales & empowered product team with data-driven insights for introducing new products.
@@ -731,7 +740,7 @@ st.markdown(
         <div class="t-role">Young Leadership Program</div>
         <div class="t-org">Titan Company Limited</div>
         <p class="t-desc">
-          - Identified amongst the top 12% of the company’s high-performing and emerging young talent with leadership potential. 
+          - Identified amongst the top 10% of the company’s high-performing and emerging young talent with leadership potential. 
         </p>
         <p class="t-desc">
           - Fully sponsored with the Post Graduate Certificate in Business Management from XLRI.
@@ -810,7 +819,7 @@ st.markdown(
         <div class="t-role">Masters in Information Science (Machine Learning)</div>
         <div class="t-org">University of Arizona</div>
         <p class="t-desc">
-          <span class="highlight-key">Focus Area:</span> Transfer Learning, Finetuning LLM/ MLLMs, Building Deep Learning Pipelines, NLP (SemEval tasks),  Music Information Retrieval, & Computer Vision.
+          <span class="highlight-key">Focus Area:</span> Agentic AI, Transfer Learning, Finetuning LLM/ MLLMs, Building Deep Learning Pipelines, NLP (SemEval tasks),  Music Information Retrieval, & Computer Vision.
         </p>
         <div>
         <span class="gpa-pill">GPA: 4/4</span>
@@ -888,6 +897,39 @@ with col1:
         st.markdown(
             f"""
             <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin-bottom: 0;">
+              <div><span class="highlight-name">Multi Agentic Merchandiser</span></div>
+            </h4>
+            """,
+            unsafe_allow_html=True,
+        )
+        img_path = BASE_DIR / "images" / "agentic_ai.jpg"
+        st.image(img_path, use_container_width=True)
+        selected_categories = ["Multi Agentic Workflow", "Agentic Evals", "Agentic Reflection", "Agentic Tool Use", "Multi Agent Orchestration","Agentic Planning","Generative AI", "Non Purchaser Analytics"]
+        categories = st.pills(
+            "",
+            selected_categories,
+            selection_mode="multi",
+            default=selected_categories,
+            key=f"project_categories_f1"
+        )
+        st.markdown(
+            """
+            <a href="https://github.com/sundarram1608/Multi-Agentic_Merchandiser-NonPurchaser_Analytics.git" target="_blank" class="t-link">↗︎ Code Repo</a> - for more details.
+            """,
+            unsafe_allow_html=True,
+        )
+        st.markdown("""
+            Leveraged Multi Agentic AI Workflow to build a merchandiser copilot that provide insights and recommendations from Non purchasers. 
+            Built with a live streamlit interface with Agentic chat environment and recommendations with Agentic reasoning, evals, reviews, traceability, Privacy, Security and .
+        """)
+
+
+
+with col2:
+    with st.container(border=True, height=550):
+        st.markdown(
+            f"""
+            <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin-bottom: 0;">
               <div><span class="highlight-name">Google Review Analytics</span></div>
             </h4>
             """,
@@ -901,7 +943,7 @@ with col1:
             selected_categories,
             selection_mode="multi",
             default=selected_categories,
-            key=f"project_categories_f1"
+            key=f"project_categories_f2"
         )
         st.markdown(
             """
@@ -915,7 +957,7 @@ with col1:
             Also built a Streamlit-powered UI to visualize insights.
         """)
 
-with col2:
+with col3:
     with st.container(border=True, height=550):
         st.markdown(
             f"""
@@ -933,7 +975,7 @@ with col2:
             selected_categories,
             selection_mode="multi",
             default=selected_categories,
-            key=f"project_categories_f2"
+            key=f"project_categories_f3"
         )
         st.markdown(
             """
@@ -943,12 +985,12 @@ with col2:
             unsafe_allow_html=True,
         )
         st.markdown("""
-            This project leverages LoRA to fine-tune MusicGen by Meta on ~10 hours of licensed Carnatic Music 
+            This project leverages LoRA to fine-tune MusicGen by Meta on ~95 hours of licensed Carnatic Music 
             from the Indian Art Music Raga Recognition Dataset, using an audio-to-audio continuation framework.
             The goal is to generate stylistically coherent Carnatic continuations. 
         """)
 
-with col3:
+with col1:
     # ===== SEMANTIC EVALUATION (moved from col2) =====
     with st.container(border=True, height=550):
         st.markdown(
@@ -967,7 +1009,7 @@ with col3:
             selected_categories,
             selection_mode="multi",
             default=selected_categories,
-            key=f"project_categories_f3"
+            key=f"project_categories_f4"
         )
         st.markdown(
             """
@@ -1001,7 +1043,7 @@ with col2:
             selected_categories,
             selection_mode="multi",
             default=selected_categories,
-            key=f"project_categories_f4"
+            key=f"project_categories_f5"
         )
         st.markdown(
             """
@@ -1285,16 +1327,22 @@ st.markdown(
           )
 
 
-skills_map = {
-                "Machine Learning, AI & Data Science": ["Agentic AI", "NLP", "RAG", "Transfer Learning", "LLM Fine-tuning", "LoRA", "Computer Vision", "Information Retrieval", "Prompt Engineering", "Business Analytics"],
-                "Programming & Databases": ["Python", "SQL", "C++", "MySQL", "Amazon Redshift"],
-                "ML & Data science Libraries": ["TensorFlow", "PyTorch", "Keras", "Scikit-learn", "Transformers", "gensim", "SciPy", "OpenCV", "YOLO", "Pandas", "Numpy", "Matplotlib", "Seaborn", "Boto3", "mysql", "librosa"],
-                "Cloud, MLOps & ML App Development": ["AWS", "CI/CD pipelines", "App Deployment", "Streamlit", "Web Applications", "dashboards"],
-                "Analytics, BI Tools & Version Control": ["Tableau", "Power BI", "Advanced Excel", "KNIME", "Git", "GitHub"],
-                "Product & Program Management": ["Product Development", "Project Management", "Stakeholder Management", "Vendor Management"],
-            }
+# as on 12 May
+skills_map = {"AI & Gen AI": ["Agentic AI", "LLM", "Transfer Learning", "Prompt Engineering", "Natural Language Processing (NLP)", "Retrieval-Augmented Generation (RAG)", "Computer Vision", "Data curation and visualization", "EDA", "Roboflow", "Statistical & Business Analytics"], 
+              "Programming Languages, Libraries & Databases": ["Python", "SQL", "TensorFlow", "PyTorch", "Keras", "Scikit-learn", "Hugging Face", "Transformers", "Gensim", "SciPy", "OpenCV", "YOLO", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Boto3", "MySQL", "MySQL server", "AWS Redshift", "DynamoDB"], 
+              "Data, Cloud & BI Tools": ["AWS", "Streamlit applications", "Tableau", "Power BI", "Advanced Excel", "PowerPoint", "GitHub"], 
+              "Product & Program Management": ["Product Development", "Project Management", "Client & Stakeholder Management", "Vendor Management"]}
+# as before 12 May
+# skills_map = {
+#                 "Machine Learning, AI & Data Science": ["Agentic AI", "NLP", "RAG", "Transfer Learning", "LLM Fine-tuning", "LoRA", "Computer Vision", "Information Retrieval", "Prompt Engineering", "Business Analytics"],
+#                 "Programming & Databases": ["Python", "SQL", "C++", "MySQL", "Amazon Redshift"],
+#                 "ML & Data science Libraries": ["TensorFlow", "PyTorch", "Keras", "Scikit-learn", "Transformers", "gensim", "SciPy", "OpenCV", "YOLO", "Pandas", "Numpy", "Matplotlib", "Seaborn", "Boto3", "mysql", "librosa"],
+#                 "Cloud, MLOps & ML App Development": ["AWS", "CI/CD pipelines", "App Deployment", "Streamlit", "Web Applications", "dashboards"],
+#                 "Analytics, BI Tools & Version Control": ["Tableau", "Power BI", "Advanced Excel", "KNIME", "Git", "GitHub"],
+#                 "Product & Program Management": ["Product Development", "Project Management", "Stakeholder Management", "Vendor Management"],
+#             }
 
-NUM_COLS = 6
+NUM_COLS = 4
 cols = st.columns(NUM_COLS, vertical_alignment="top")
 
 for i, (group_name, group_skills) in enumerate(skills_map.items()):
@@ -1342,6 +1390,35 @@ with col1:
     st.markdown(
                 f"""
                 <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin: 0 0 -1px 0;line-height: 1.2;">
+                <span class="highlight-name">Agentic AI</span>
+                </h4>
+                """,
+                unsafe_allow_html=True,
+            )
+    selected_categories = ["Agentic Design", "Tool Use", "Evaluate and optimize AI systems"]
+    categories = st.pills(
+                            "",
+                            selected_categories,
+                            selection_mode="multi",
+                            default=selected_categories,
+                            key=f"agentic_ai"
+                        )
+    st.markdown(
+                  """
+                  <div style="text-align: center;">
+                      <a "Non Certificate course"
+                      </a>
+                  </div>
+                  """,
+                  unsafe_allow_html=True,
+              )
+
+
+with col2:
+  with st.container(border=True, height=220, horizontal_alignment="center"):
+    st.markdown(
+                f"""
+                <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin: 0 0 -1px 0;line-height: 1.2;">
                 <span class="highlight-name">Math for Data Science & Machine Learning</span>
                 </h4>
                 """,
@@ -1370,7 +1447,7 @@ with col1:
 
 
 
-with col2:
+with col3:
   with st.container(border=True, height=220, horizontal_alignment="center"):
     st.markdown(
                 f"""
@@ -1402,7 +1479,7 @@ with col2:
               )
     
     
-with col3:
+with col1:
   with st.container(border=True, height=220, horizontal_alignment="center"):
     st.markdown(
                 f"""
@@ -1433,7 +1510,7 @@ with col3:
                   unsafe_allow_html=True,
               )
 
-with col1:
+with col2:
   with st.container(border=True, height=220, horizontal_alignment="center"):
     st.markdown(
                 f"""
@@ -1464,7 +1541,7 @@ with col1:
                   unsafe_allow_html=True,
               )
 
-with col2:
+with col3:
   with st.container(border=True, height=220, horizontal_alignment="center"):
     st.markdown(
                 f"""
@@ -1496,7 +1573,7 @@ with col2:
               )
 
 
-with col3:
+with col2:
   with st.container(border=True, height=220, horizontal_alignment="center"):
     st.markdown(
                 f"""
@@ -1558,7 +1635,7 @@ st.markdown(
                         Email
                     </a>
                     <!-- View CV button -->
-                <a href="https://drive.google.com/file/d/1bLEdv_o81KtwjBHBbs82x-IZqYNBNkkp/view?usp=share_link"
+                <a href="https://drive.google.com/file/d/1XN4xpq0rDYZlVL566TW31YuDHQxpg2ST/view?usp=share_link"
                    target="_blank"
                    rel="noopener noreferrer"
                    class="cta-button-resume">
@@ -1623,7 +1700,7 @@ st.divider()
 st.markdown(
             """
             <div style="text-align:center; opacity:0.7; font-size:1rem;">
-                ⓒ Apr 2026 ⊙ Sundar Ram Subramanian ⊙ Built with Streamlit
+                ⓒ May 2026 ⊙ Sundar Ram Subramanian ⊙ Built with Streamlit
             </div>
             """,
             unsafe_allow_html=True,
