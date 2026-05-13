@@ -930,7 +930,8 @@ with col2:
         st.markdown(
             f"""
             <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin-bottom: 0;">
-              <div><span class="highlight-name">LLM Powered Google Review Analytics</span></div>
+              <div><span class="highlight-name">LLM Powered</span></div>
+              <div><span class="highlight-name">Google Review Analytics</span></div>
             </h4>
             """,
             unsafe_allow_html=True,
