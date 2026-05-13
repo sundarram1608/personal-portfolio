@@ -930,7 +930,7 @@ with col2:
         st.markdown(
             f"""
             <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin-bottom: 0;">
-              <div><span class="highlight-name">Google Review Analytics</span></div>
+              <div><span class="highlight-name">LLM Powered Google Review Analytics</span></div>
             </h4>
             """,
             unsafe_allow_html=True,
@@ -996,7 +996,7 @@ with col1:
         st.markdown(
             f"""
             <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin-bottom: 0;">
-              <div><span class="highlight-name">Semantic Evaluation</span></div>
+              <div><span class="highlight-name">NLP for Semantic Evaluation</span></div>
             </h4>
             """,
             unsafe_allow_html=True,
@@ -1030,7 +1030,7 @@ with col2:
         st.markdown(
             f"""
             <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin-bottom: 0;">
-              <div><span class="highlight-name">Carnatic Music Raga Identification</span></div>
+              <div><span class="highlight-name">Deep Learning Pipeline for Carnatic Raga Identification</span></div>
             </h4>
             """,
             unsafe_allow_html=True,
@@ -1406,8 +1406,7 @@ with col1:
     st.markdown(
                   """
                   <div style="text-align: center;">
-                      <a "Non Certificate course"
-                      </a>
+                      <p>"Non Certificate course"</p>
                   </div>
                   """,
                   unsafe_allow_html=True,
