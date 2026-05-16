@@ -551,7 +551,7 @@ with col2:
               """
               <div style="font-size: 1.1rem; line-height: 1.2; text-align: justify;">
                   <p>
-                  Based in the United States, I am a <span style="color: #f5c542; font-weight: 500;">a Master’s graduate in Machine Learning</span> from the University of Arizona.
+                  Based in the United States, I am a <span style="color: #f5c542; font-weight: 500;">Master’s graduate in Machine Learning</span> from the University of Arizona.
                   </p>
                   <p>
                   My career began with Titan Company Limited as Lead Data Scientist– New Product Development, where I transformed data into
