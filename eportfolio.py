@@ -551,7 +551,7 @@ with col2:
               """
               <div style="font-size: 1.1rem; line-height: 1.2; text-align: justify;">
                   <p>
-                  Based in Tucson, Arizona, I am <span style="color: #f5c542; font-weight: 500;">graduating May 2026</span> with a Master’s in Machine Learning from the University of Arizona.
+                  Based in the United States, I am a <span style="color: #f5c542; font-weight: 500;">a Master’s graduate in Machine Learning</span> from the University of Arizona.
                   </p>
                   <p>
                   My career began with Titan Company Limited as Lead Data Scientist– New Product Development, where I transformed data into
@@ -564,7 +564,7 @@ with col2:
                   Quick to notice my potential, Titan inducted me into its <span class="highlight-name" style="font-weight: 500;">Young Leadership Program (top 12%)</span> with a
                   sponsored Post Graduation in Business Management from XLRI while at work. During this program, I led initiatives including <span class="highlight-name" style="font-weight: 500;">product attribution & consumer analytics</span>, optimizing inventory, and driving <span class="highlight-name" style="font-weight: 500;">30% sales growth</span> in Titan Wedding Jewelry.
                   Subsequently, I spearheaded Titan's Data Centre of Excellence, building production-grade <span class="highlight-name" style="font-weight: 500;">LLM and Deep Learning pipelines</span> along with <span class="highlight-name" style="font-weight: 500;">Streamlit dashboards for Business Analytics</span> that delivered 35–40% improvements in measurable business outcomes. This work spanned <span class="highlight-name" style="font-weight: 500;">geospatial and consumer analytics, merchandising analytics, marketing content generation, text mining, and image analytics</span> across a variety of use cases, including <span class="highlight-name" style="font-weight: 500;">network expansion and retail store segmentation </span>for the International Business Division; ultimately motivating my pursuit of a Master's in Machine Learning at the University of Arizona. 
-                  As a Graduate Researcher, I leverage <span class="highlight-name" style="font-weight: 500;">Multi Agentic architecture </span> to solve business use-cases, <span class="highlight-name" style="font-weight: 500;">PEFT to fine-tune Multi-modal Large Language Models</span> for domain adaptation, design and build customized <span class="highlight-name" style="font-weight: 500;">Deep Learning pipelines</span> including <span class="highlight-name" style="font-weight: 500;">Computer Vision</span> for object detection and <span class="highlight-name" style="font-weight: 500;">CNN-LSTM </span>for time series music data, and <span class="highlight-name" style="font-weight: 500;">implement CI/CD pipelines in AWS</span> for university web applications.
+                  As a Graduate Researcher at the University, I leveraged <span class="highlight-name" style="font-weight: 500;">Multi Agentic architecture </span> to solve business use-cases, <span class="highlight-name" style="font-weight: 500;">PEFT to fine-tune Multi-modal Large Language Models</span> for domain adaptation, design and build customized <span class="highlight-name" style="font-weight: 500;">Deep Learning pipelines</span> including <span class="highlight-name" style="font-weight: 500;">Computer Vision</span> for object detection and <span class="highlight-name" style="font-weight: 500;">CNN-LSTM </span>for time series music data, and <span class="highlight-name" style="font-weight: 500;">implement CI/CD pipelines in AWS</span> for university web applications.
                   </p>
                   <p>
                   I am driven to apply these skills to the most complex business challenges, spanning robust <span class="highlight-name" style="font-weight: 500;">deep learning pipelines for Multimodal applications</span>, as well as inferring <span class="highlight-name" style="font-weight: 500;">causal relationships in advanced analytics that translate data into actionable insights.</span></div>
@@ -1635,7 +1635,7 @@ st.markdown(
                         Email
                     </a>
                     <!-- View CV button -->
-                <a href="https://drive.google.com/file/d/1XN4xpq0rDYZlVL566TW31YuDHQxpg2ST/view?usp=share_link"
+                <a href="https://drive.google.com/file/d/1kfo_IXKnEbAmNELHTFTagxLBcfo1gNkI/view?usp=share_link"
                    target="_blank"
                    rel="noopener noreferrer"
                    class="cta-button-resume">
