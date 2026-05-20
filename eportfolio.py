@@ -1646,7 +1646,7 @@ st.markdown(
             """         
             <div style="text-align:center; padding-bottom: 20px;">   
                 <div style="margin-top: 0px;">
-                    <a href="mailto:sundarram1997@arizona.edu" class="cta-button">
+                    <a href="mailto:sundarram1997@gmail.com" class="cta-button">
                         Email
                     </a>
                     <!-- View CV button -->
