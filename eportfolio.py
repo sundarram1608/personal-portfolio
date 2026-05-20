@@ -1407,11 +1407,26 @@ with col1:
     st.markdown(
                   """
                   <div style="text-align: center;">
-                      <p>Non Certificate course</p>
+                      <a href="https://learn.deeplearning.ai/certificates/674d7e76-8bb5-42b8-9b0f-c0edc77db81d"
+                        target="_blank"
+                        class="t-link">
+                          ↗︎ View Credentials
+                      </a>
                   </div>
                   """,
                   unsafe_allow_html=True,
               )
+
+
+
+# st.markdown(
+    #               """
+    #               <div style="text-align: center;">
+    #                   <p>Non Certificate course</p>
+    #               </div>
+    #               """,
+    #               unsafe_allow_html=True,
+    #           )
 
 
 with col2:
