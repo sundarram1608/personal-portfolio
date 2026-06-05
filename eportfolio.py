@@ -488,7 +488,7 @@ st.markdown(
                       <span class="highlight-name">AI Engineer</span>
                   </h3>               
                   <h4 style="font-size: 2rem; font-weight: 300;">
-                      Leveraging Generative AI and Deep Learning techniques 
+                      Leveraging Agentic AI, Gen AI and Deep Learning techniques 
                       <div>
                       <span class="highlight-name" style="font-weight: 500;">
                       to build systems that decipher patterns into purpose and causal relationships </span></div>
@@ -608,10 +608,10 @@ st.markdown(
         <div class="t-role">Graduate Researcher - Deep Learning and Cloud Technology</div>
         <div class="t-org">The University of Arizona</div>
         <p class="t-desc">
-          - Built a Multi Agentic Decision Support System for Jewelry Merchandising team to boost sales by ~30%.
+          - Built an LLM driven Multi-Agentic Decision Support System for Jewelry Merchandising team to boost sales by ~30%.
           </p>
         <p class="t-desc">
-          - Leveraged LoRA to fine-tune MusicGen (Foundational Music Model) for Carnatic music with an improvement by ~70% in adaption.
+          - Leveraged LoRA(PEFT) to fine-tune Foundational Music Model for domain specific generation with perceptual acceptance of ~70%.
           </p>
         <p class="t-desc">
           - Leveraged GloVe embeddings, built classification models, and fine-tuned BERT to solve several NLP (Semeval) tasks.
