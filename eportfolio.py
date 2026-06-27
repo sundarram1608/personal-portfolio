@@ -266,6 +266,8 @@ st.markdown(
                         margin: 0;
                         text-align: justify;
                       }
+            
+              .indent-child { padding-left: 20px;}  
                       
               .highlight-key{
                               font-style: italic;
@@ -605,35 +607,49 @@ st.markdown(
     
       <div class="t-item work">
         <div class="t-date">Aug 2025 - Present</div>
-        <div class="t-role">Graduate Researcher - Deep Learning and Cloud Technology</div>
+        <div class="t-role">Graduate Researcher - Deep Learning</div>
         <div class="t-org">The University of Arizona</div>
         <p class="t-desc">
-          - Built an LLM driven Multi-Agentic Decision Support System for Jewelry Merchandising team to boost sales by ~30%.
+          - As a Graduate Researcher at the University of Arizona, I collaborated with faculty across Deep Learning, Information Retrieval, and Cloud Computing to design production-oriented AI systems and advance research in Generative AI, Agentic AI, NLP, Computer Vision, and Foundation Models. My work focused on building reliable AI applications by combining LLM reasoning, retrieval, evaluation, observability, and cloud-native deployment.
           </p>
         <p class="t-desc">
-          - Leveraged LoRA(PEFT) to fine-tune Foundational Music Model for domain specific generation with perceptual acceptance of ~70%.
+          Key Research Contributions include:
           </p>
         <p class="t-desc">
-          - Leveraged GloVe embeddings, built classification models, and fine-tuned BERT to solve several NLP (Semeval) tasks.
+          - Designed and implemented a Shopfloor AI Service Assistant using a 12-agent LangGraph architecture integrating RAG, MCP, MySQL, ChromaDB, human-in-the-loop approvals, evaluation pipelines, governance, guardrails, and observability through LangSmith to automate machine troubleshooting, maintenance, incident management and service workflows.
           </p>
         <p class="t-desc">
-          - Designed an LSTM-CNN pipeline for Raga classification & identified the core challenges through analysis of audio embeddings.
+          - Designed and built a production-style Multi-Agent AI Decision Support System to assist merchandising teams in data-driven assortment planning, targeting approximately 30% sales improvement.
           </p>
         <p class="t-desc">
-          - Developed a custom CV pipeline for suture analysis using Roboflow-based annotation/ augmentation, and YOLO for object detection.
+          - Fine-tuned Meta’s MusicGen foundation music model using LoRA (PEFT) for cultural adaptation to Carnatic music while designing comprehensive quantitative and human evaluation pipelines, achieving approximately 70% perceptual acceptance.
           </p>
         <p class="t-desc">
-          - Leveraged AWS to build cloud infrastructure and CI/ CD pipelines for a full-stack student degree planner web application.
+          - Built NLP pipelines leveraging GloVe embeddings, traditional machine learning, and transformer-based models including BERT to solve multiple SemEval benchmark tasks.
+          </p>
+        <p class="t-desc">
+          - Developed a CNN-LSTM architecture for Carnatic Raga classification and investigated the representational capabilities and limitations of audio embeddings for music understanding.
+          </p>
+        <p class="t-desc">
+          - Designed a Computer Vision pipeline using Roboflow, image augmentation, and YOLO for automated suture detection and analysis.
+          </p>
+        <p class="t-desc">
+          - Engineered AWS cloud infrastructure and CI/CD pipelines for a full-stack student degree planner, enabling scalable deployment and automated software delivery.
           </p>
         <div class="t-tags">
           <span class="t-tag">Agentic AI</span>
           <span class="t-tag">Agentic Reflection</span>
+          <span class="t-tag">Agentic AI Orchestration</span>
+          <span class="t-tag">Agentic Guardrails</span>
+          <span class="t-tag">Agentic Observability</span>
+          <span class="t-tag">Agentic RAG</span>
+          <span class="t-tag">Semantic Chunking</span>
           <span class="t-tag">Agentic Tool Use</span>
           <span class="t-tag">Agentic Evals</span>
-          <span class="t-tag">Multi Agentic Workflow</span>          
+          <span class="t-tag">Multi-Agent Systems</span>          
           <span class="t-tag">Deep Learning</span>
           <span class="t-tag">Transfer Learning</span>
-          <span class="t-tag">Fine Tuning LLMs/ MLLMs</span>
+          <span class="t-tag">Fine Tuning Foundation Models</span>
           <span class="t-tag">Semantic Textual Similarity</span>
           <span class="t-tag">AWS CodePipeline</span>          
           <span class="t-tag">AWS CodeBuild</span>          
@@ -658,53 +674,47 @@ st.markdown(
         <div class="t-role">Assistant Manager - Data Science & Advanced Analytics</div>
         <div class="t-org">Titan Company Limited</div>
         <p class="t-desc">
-          Spearheaded the Data Centre of Excellence, using Python & SQL 
-          to curate structured and unstructured data, 
-          building and deploying scalable Gen AI/ ML/ fine-tuning pipelines, streamlit-powered dashboards, including LLM-based 
-          applications for data mining, text analytics, and content generation (image/ text) to solve advanced Business problems, driving 40–50% improvement in measurable business outcomes.        </p>
-        <p class="t-desc">
+            Spearheaded the enterprise Data Science Centre of Excellence, driving the end-to-end design, development, deployment, and adoption of AI, Generative AI, and Machine Learning solutions across merchandising, marketing, manufacturing, and business operations. Built production-ready AI systems using Python, SQL, OpenAI APIs, AWS, and Streamlit, spanning data curation, LLM pipelines, predictive modeling, analytics, and decision-support applications. Partnered with senior stakeholders to translate business problems into AI roadmaps while mentoring junior data scientists and leading cross-functional solution delivery.
+          </p>
+          <p class="t-desc">
           &nbsp;
-        </p>
+          </p>
         <p class="t-desc">
-          <span class="highlight-key">Sentiment Analytics (GenAI):</span> Developed LLM-powered sentiment analysis web application
-          using OpenAI’s API and Streamlit for the Marketing and Merchandise teams that delivered competitive insights, 
-          improving targeted campaigning and product planning outcomes by ~ 30%.
-        </p>
+            Representative AI initiatives include:
+          </p>
         <p class="t-desc">
+          - <span class="highlight-key">Sentiment Analytics (GenAI):</span> Built and deployed an LLM-powered Sentiment Analytics platform using OpenAI APIs, Streamlit, and AWS Beanstalk to analyze customer feedback and competitive intelligence, improving marketing effectiveness and merchandising decisions by approximately 30%.
+          </p>
+          <p class="t-desc">
           &nbsp;
-        </p>
+          </p>
         <p class="t-desc">
-          <span class="highlight-key">Merchandise Copilot (GenAI):</span> Built an LLM-driven pipeline using OpenAI’s APIs to analyze textual and audio feedback from 
-          non-purchasers, enabling the Merchandise team to optimize product assortment and drive ~ 30% sales uplift per stored
-        </p>
-        <p class="t-desc">
+          - <span class="highlight-key">Merchandise Copilot (GenAI):</span> Designed an AI-powered Merchandise Copilot integrating text and audio feedback analysis using LLMs to optimize product assortment decisions, contributing to approximately 30% sales uplift across retail stores.
+          </p>
+          <p class="t-desc">
           &nbsp;
-        </p>            
+          </p>
         <p class="t-desc">
-          <span class="highlight-key">Product Annotation and Content generation (GenAI):</span> 
-          Delivered an LLM-driven pipeline using OpenAI’s API to extract prominent design elements from jewelry images, 
-          automating product description generation and reducing manual effort by ~30 minutes per product, while facilitating design analytics that increased portfolio diversity 
-          and improved merchandise allocation decisions by ~35%.
-        </p>
-        <p class="t-desc">
+          - <span class="highlight-key">Product Annotation and Content generation (GenAI):</span> Developed an automated Product Annotation and Content Generation pipeline using multimodal LLM capabilities to identify jewelry design attributes, generate product descriptions, reduce manual effort by approximately 30 minutes per product, and improve merchandising analytics.
+          </p>
+          <p class="t-desc">
           &nbsp;
-        </p>
+          </p>
         <p class="t-desc">
-          <span class="highlight-key">Customer Segmentation:</span> 
-          Built a deep learning–based language classification pipeline to segment customers by mother tongue, integrated the model in the ETL pipeline, and automated mother tongue identification of new customers through AWS Glue,
-          enabling targeted marketing initiatives that improved CRM customer engagement metrics by ~60%.
-        </p>
-        <p class="t-desc">
+          - <span class="highlight-key">Customer Segmentation:</span> Designed a deep learning language classification model integrated into AWS Glue ETL pipelines to automatically identify customer mother tongue, leveraging SQL queries on Redshift, enabling targeted CRM campaigns and improving customer engagement by approximately 60%.
+          </p>
+          <p class="t-desc">
           &nbsp;
-        </p>
+          </p>
         <p class="t-desc">
-          <span class="highlight-key">Network Expansion:</span> Leveraged SQL to empower the Retail team with insights on potential market opportunities.
-        <p class="t-desc">
+          - <span class="highlight-key">Network Expansion:</span> Developed SQL-driven analytics solutions to identify new retail expansion opportunities and support strategic market planning.
+          </p>
+          <p class="t-desc">
           &nbsp;
-        </p>
+          </p>
         <p class="t-desc">
-          <span class="highlight-key">Geo Spatial Analytics:</span> Leveraged Tableau for Geo Spatial Sales Analysis, to identify catchments with high customer affinity.
-        </p>
+          - <span class="highlight-key">Geo Spatial Analytics:</span> Built interactive geospatial analytics dashboards in Tableau to visualize customer affinity, sales performance, and retail catchment opportunities.
+          </p>
         <div class="t-tags">
           <span class="t-tag">LLM Pipelines</span>
           <span class="t-tag">Gen AI</span>
@@ -722,12 +732,22 @@ st.markdown(
         <div class="t-role">Young Leadership Associate - Data Scientist (Merchandising)</div>
         <div class="t-org">Titan Company Limited</div>
         <p class="t-desc">
-          - Led product attribution and optimized inventory by demographic segments, which resulted ~30% annual growth in wedding sales.
-        </p>
+            As a Data Scientist within the Merchandising organization, partnered closely with business leaders to combine advanced analytics and machine learning with product strategy and inventory planning.
+          </p>
+          <p class="t-desc">
+          &nbsp;
+          </p>        
         <p class="t-desc">
-          - Analyzed sales & empowered product team with data-driven insights for introducing new products.
-        </p>
-        <div class="t-tags">
+          Key contributions:
+          </p>
+        <p class="t-desc">
+          - Led large-scale product attribution, data curation, and merchandising analytics initiatives to optimize inventory across customer demographic segments, contributing to approximately 30% annual growth in wedding category sales.
+          </p>
+        <p class="t-desc">
+          - Applied sales analytics and customer insights to guide new product introduction strategies, enabling data-driven merchandising decisions across cross-functional product and design teams.
+          </p>
+          
+          <div class="t-tags">
           <span class="t-tag">Product Annotation</span>
           <span class="t-tag">Sales Analysis</span>
           <span class="t-tag">Inventory Optimization</span>
@@ -740,16 +760,17 @@ st.markdown(
         <div class="t-role">Young Leadership Program</div>
         <div class="t-org">Titan Company Limited</div>
         <p class="t-desc">
-          - Identified amongst the top 10% of the company’s high-performing and emerging young talent with leadership potential. 
+          - Identified among the top 10% of Titan Company’s high-performing emerging young leaders through the global Young Leadership Program, recognizing sustained business impact, technical excellence, and leadership potential. 
         </p>
         <p class="t-desc">
           - Fully sponsored with the Post Graduate Certificate in Business Management from XLRI.
         </p>
         <p class="t-desc">
-          - Empowered the senior leadership of Jewelry Merchandising  and Digital Analytics Function with data-based decision support systems for several intriguing business challenges.
+          - Empowered the senior leadership of Jewelry Merchandising and Digital Analytics Function with data-based decision support systems for several intriguing business challenges.
         </p>            
         <div class="t-tags">
           <span class="t-tag">Leadership</span>
+          <span class="t-tag">Technical Excellence</span>
           <span class="t-tag">Business Management</span>
           <span class="t-tag">Self-Reflection</span>
           <span class="t-tag">Merchandising</span>
@@ -757,29 +778,61 @@ st.markdown(
         </div>
       </div>
 
-
       <div class="t-item work">
         <div class="t-date">Jul 2019 - Mar 2023</div>
-        <div class="t-role">Lead Data Scientist - New Product Development</div>
+        <div class="t-role">Senior Data Scientist - New Product Development</div>
         <div class="t-org">Titan Company Limited</div>
         <p class="t-desc">
-          - Steered the product development of 600+ watch designs by effective analytics and project management for the Brand Sonata.
-        </p>
+          Led manufacturing analytics and data-driven product development for over 600 watch designs under Titan’s Sonata brand, combining analytics, process optimization, market intelligence, and decision-support systems to improve product innovation, operational efficiency, and manufacturing performance.
+          </p>
+          <p class="t-desc">
+          &nbsp;
+          </p>
         <p class="t-desc">
-         - Formulated tailored product development milestones and aligned stakeholders to achieve 95% on-time design delivery.
-        </p>
+          Major initiatives include:
+          </p>
         <p class="t-desc">
-          - Fostered innovation through extensive market research and implementation of SCAMPER technique, for a 1Bn watch market and introduced the first-ever branded skeletal quartz watch that enabled growth of >2K price band portfolio by 170%.
-        </p>
+          - Formulated product development milestones, tailored to their complexities & SOPs for streamlined project execution, by analyzing historic product development lifecycle, resulting in 95% of designs meeting deadlines.
+          </p>
+        <p class="t-desc">
+          - Fostered innovation for a 1Bn watch market comprising the mid-income group of aesthetic-driven mechanical watch enthusiasts with the first-ever Branded Skeletal Quartz Watch (Project Unveil).
+          </p>
+        <p class="t-desc indent-child">
+          - Undertook extensive market analysis to grasp the underlying consumer demands, facilitating targeted product innovation.
+          </p>
+        <p class="t-desc indent-child">
+          - Surveyed & analyzed stores to capture consumer spending willingness, guiding effective pricing decisions.
+          </p>
+        <p class="t-desc indent-child">
+          - Implemented SCAMPER technique to skeletonize the Quartz movement.
+          </p>
+        <p class="t-desc indent-child">
+          - Enabled growth of greater than 2K price band portfolio by 170%.
+          </p>
         <p class="t-desc">
           - Empowered Top leadership with effective visual insights by analyzing the cost vs. Procurement matrix for optimal decision-making.
-        </p>
+          </p>
         <p class="t-desc">
-          - Reduced the lead time of proto-dial manufacturing from 45 to 10 days (77 %) by causal inferencing of manufacturing techniques that secured 13th rank in the National level Kaizen competition.
-        </p>
+          - Pioneered a 4-member team in National Kaizen Mela, securing 13th rank for “New Product Lead time reduction by 3D HD Dial printing”.
+          </p>
+        <p class="t-desc indent-child">
+          - Examined historic data to ascertain the average Lead time for Watch Prototype Development & assessed various elements causing extended lead times in manufacturing.
+          </p>
+        <p class="t-desc indent-child">
+          - Reduced lead time of proto-Dial manufacturing from 45 to 10 days (77 %).
+          </p>
         <p class="t-desc">
-          - Established Lead time and product attributes correlation matrix, enabling watch production without prototype approval.
-        </p>
+          - Established standardized manufacturing SOPs through historical data analysis, pilot experimentation, and process validation, significantly accelerating bulk production readiness while maintaining product quality.
+          </p>
+        <p class="t-desc indent-child">
+          - Analyzed the historic data on Lead time & its correlation with the product attributes & features.
+          </p>
+        <p class="t-desc indent-child">
+          - Identified proven attributes and features available for use without approval.
+          </p>
+        <p class="t-desc indent-child">
+          - Streamlined development process through a pilot study.
+          </p>
         <div class="t-tags">
           <span class="t-tag">Product analytics</span>
           <span class="t-tag">Manufacturing analytics</span>
@@ -850,8 +903,19 @@ st.markdown(
         <span class="gpa-pill">GPA: 3.6/4</span>
         <a href="https://eportfolio.mygreatlearning.com/sundar-ram-s" target="_blank" class="t-link">↗︎Academic e-Portfolio</a>
         </div>
-      </div> 
+      </div>
 
+      <div class="t-item academic">
+        <div class="t-date">Jun 2015 - May 2019</div>
+        <div class="t-role">Bachelor of Engineering in Mechanical Engineering</div>
+        <div class="t-org">Coimbatore Institute of Technology</div>
+        <p class="t-desc">
+          <span class="highlight-key">Focus Area:</span> Strength of Materials, Design of Machine Elements, Artificial Intelligence of Manufacturing.
+        </p>
+        <div>
+        <span class="gpa-pill">GPA: 8.72/10</span>
+        </div>
+      </div> 
     </div>
     """,
     unsafe_allow_html=True,
