@@ -746,8 +746,7 @@ st.markdown(
         <p class="t-desc">
           - Applied sales analytics and customer insights to guide new product introduction strategies, enabling data-driven merchandising decisions across cross-functional product and design teams.
           </p>
-          
-          <div class="t-tags">
+        <div class="t-tags">
           <span class="t-tag">Product Annotation</span>
           <span class="t-tag">Sales Analysis</span>
           <span class="t-tag">Inventory Optimization</span>
