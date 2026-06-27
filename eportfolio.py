@@ -793,6 +793,9 @@ st.markdown(
         <p class="t-desc">
           - Formulated product development milestones, tailored to their complexities & SOPs for streamlined project execution, by analyzing historic product development lifecycle, resulting in 95% of designs meeting deadlines.
           </p>
+          <p class="t-desc">
+          &nbsp;
+          </p>
         <p class="t-desc">
           - Fostered innovation for a 1Bn watch market comprising the mid-income group of aesthetic-driven mechanical watch enthusiasts with the first-ever Branded Skeletal Quartz Watch (Project Unveil).
           </p>
@@ -808,8 +811,14 @@ st.markdown(
         <p class="t-desc indent-child">
           - Enabled growth of greater than 2K price band portfolio by 170%.
           </p>
+          <p class="t-desc">
+          &nbsp;
+          </p>
         <p class="t-desc">
           - Empowered Top leadership with effective visual insights by analyzing the cost vs. Procurement matrix for optimal decision-making.
+          </p>
+          <p class="t-desc">
+          &nbsp;
           </p>
         <p class="t-desc">
           - Pioneered a 4-member team in National Kaizen Mela, securing 13th rank for “New Product Lead time reduction by 3D HD Dial printing”.
@@ -819,6 +828,9 @@ st.markdown(
           </p>
         <p class="t-desc indent-child">
           - Reduced lead time of proto-Dial manufacturing from 45 to 10 days (77 %).
+          </p>
+          <p class="t-desc">
+          &nbsp;
           </p>
         <p class="t-desc">
           - Established standardized manufacturing SOPs through historical data analysis, pilot experimentation, and process validation, significantly accelerating bulk production readiness while maintaining product quality.
