@@ -921,7 +921,7 @@ st.markdown(
         <div class="t-role">Bachelor of Engineering in Mechanical Engineering</div>
         <div class="t-org">Coimbatore Institute of Technology</div>
         <p class="t-desc">
-          <span class="highlight-key">Focus Area:</span> Strength of Materials, Design of Machine Elements, Artificial Intelligence of Manufacturing.
+          <span class="highlight-key">Focus Area:</span> Strength of Materials, Design of Machine Elements, Artificial Intelligence for Manufacturing.
         </p>
         <div>
         <span class="gpa-pill">GPA: 8.72/10</span>
@@ -1403,11 +1403,18 @@ st.markdown(
           )
 
 
-# as on 12 May
-skills_map = {"AI & Gen AI": ["Agentic AI", "Model Context Protocol (MCP)","LLM", "Transfer Learning", "Prompt Engineering", "Natural Language Processing (NLP)", "Retrieval-Augmented Generation (RAG)", "Computer Vision", "Data curation and visualization", "EDA", "Roboflow", "Statistical & Business Analytics"], 
-              "Programming Languages, Libraries & Databases": ["Python", "SQL", "TensorFlow", "PyTorch", "Keras", "Scikit-learn", "Hugging Face", "Transformers", "Gensim", "SciPy", "OpenCV", "YOLO", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Boto3", "MySQL", "MySQL server", "AWS Redshift", "DynamoDB"], 
-              "Data, Cloud & BI Tools": ["AWS", "Streamlit applications", "Tableau", "Power BI", "Advanced Excel", "PowerPoint", "GitHub"], 
+# as on 27 Jun
+skills_map = {"Applied AI": ["Multi-Agent Systems", "LLMs", "Agentic AI Orchestration", "Model Context Protocol (MCP)", "Prompt Engineering", "Retrieval-Augmented Generation (RAG)", "Tool Calling", "AI Agent Evaluation", "Guardrails", "Observability", "Semantic Chunking", "Fine Tuning Foundation Models", "Natural Language Processing (NLP)", "Data curation and visualization", "EDA", "Predictive Analytics", "Statistical Analytics", "Business Analytics"], 
+              "Programming & AI/ML": ["Python", "SQL", "TensorFlow", "PyTorch", "Keras", "Scikit-learn", "Hugging Face", "Transformers", "Gensim", "SciPy", "YOLO", "Boto3", "LangGraph", "LangChain", "LangSmith", "Pandas", "Matplotlib", "Seaborn", "OpenCV", "Streamlit"], 
+              "Vector, Data, Cloud & BI Tools": ["ChromaDB", "MySQL", "AWS Redshift", "DynamoDB", "Sagemaker", "CI/ CD", "GitHub", "Tableau", "Advanced Excel", "PowerPoint", "Power BI"], 
               "Product & Program Management": ["Product Development", "Project Management", "Client & Stakeholder Management", "Vendor Management"]}
+
+
+# as on 12 May
+# skills_map = {"AI & Gen AI": ["Agentic AI", "Model Context Protocol (MCP)","LLM", "Transfer Learning", "Prompt Engineering", "Natural Language Processing (NLP)", "Retrieval-Augmented Generation (RAG)", "Computer Vision", "Data curation and visualization", "EDA", "Roboflow", "Statistical & Business Analytics"], 
+#               "Programming Languages, Libraries & Databases": ["Python", "SQL", "TensorFlow", "PyTorch", "Keras", "Scikit-learn", "Hugging Face", "Transformers", "Gensim", "SciPy", "OpenCV", "YOLO", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Boto3", "MySQL", "MySQL server", "AWS Redshift", "DynamoDB"], 
+#               "Data, Cloud & BI Tools": ["AWS", "Streamlit applications", "Tableau", "Power BI", "Advanced Excel", "PowerPoint", "GitHub"], 
+#               "Product & Program Management": ["Product Development", "Project Management", "Client & Stakeholder Management", "Vendor Management"]}
 # as before 12 May
 # skills_map = {
 #                 "Machine Learning, AI & Data Science": ["Agentic AI", "NLP", "RAG", "Transfer Learning", "LLM Fine-tuning", "LoRA", "Computer Vision", "Information Retrieval", "Prompt Engineering", "Business Analytics"],
