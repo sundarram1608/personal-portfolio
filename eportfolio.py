@@ -963,11 +963,47 @@ st.markdown(
               unsafe_allow_html=True,
           )
 
+st.markdown(
+              """            
+              <span style="alignment: center; font-size: 1.2rem; color: #b3b5b4;">Applied AI projects</span>
+              """,
+              unsafe_allow_html=True,
+          )
 
 # ===== FIRST ROW =====
 col1, col2, col3 = st.columns(3, vertical_alignment="top")
 
 with col1:
+    with st.container(border=True, height=550):
+        st.markdown(
+            f"""
+            <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin-bottom: 0;">
+              <div><span class="highlight-name">RAG based Multi Agentic Shopfloor AI Assistant</span></div>
+            </h4>
+            """,
+            unsafe_allow_html=True,
+        )
+        img_path = BASE_DIR / "images" / "musicgen.jpg"
+        st.image(img_path, use_container_width=True)
+        selected_categories = ["Multi-Agent Systems", "Agentic AI Orchestration", "Model Context Protocol (MCP)", "Retrieval-Augmented Generation (RAG)", "AI Agent Evaluation", "Tool Calling", "Observability", "Semantic Chunking"]
+        categories = st.pills(
+            "",
+            selected_categories,
+            selection_mode="multi",
+            default=selected_categories,
+            key=f"project_categories_f1"
+        )
+        st.markdown(
+            """
+            <a href="https://github.com/sundarram1608/RAG-powered-Multi-Agentic-Machine-Maintenance-Support.git" target="_blank" class="t-link">↗︎ Code Repo</a> - for more details.
+            """,
+            unsafe_allow_html=True,
+        )
+        st.markdown("""
+            This project implements a Shopfloor AI Service Assistant using a 12-agent LangGraph architecture integrating RAG, MCP, MySQL, ChromaDB, human-in-the-loop approvals, evaluation pipelines, governance, guardrails, and observability through LangSmith to automate machine troubleshooting, maintenance, incident management and service workflows. 
+        """)
+
+with col2:
     with st.container(border=True, height=550):
         st.markdown(
             f"""
@@ -985,7 +1021,7 @@ with col1:
             selected_categories,
             selection_mode="multi",
             default=selected_categories,
-            key=f"project_categories_f1"
+            key=f"project_categories_f2"
         )
         st.markdown(
             """
@@ -998,9 +1034,7 @@ with col1:
             Built with a live streamlit interface with Agentic chat environment and recommendations with Agentic reasoning, evals, reviews, traceability, Privacy, Security and .
         """)
 
-
-
-with col2:
+with col3:
     with st.container(border=True, height=550):
         st.markdown(
             f"""
@@ -1019,7 +1053,7 @@ with col2:
             selected_categories,
             selection_mode="multi",
             default=selected_categories,
-            key=f"project_categories_f2"
+            key=f"project_categories_f3"
         )
         st.markdown(
             """
@@ -1033,7 +1067,14 @@ with col2:
             Also built a Streamlit-powered UI to visualize insights.
         """)
 
-with col3:
+st.markdown(
+              """            
+              <span style="alignment: center; font-size: 1.2rem; color: #b3b5b4;">Foundational Research projects</span>
+              """,
+              unsafe_allow_html=True,
+          )
+
+with col1:
     with st.container(border=True, height=550):
         st.markdown(
             f"""
@@ -1051,7 +1092,7 @@ with col3:
             selected_categories,
             selection_mode="multi",
             default=selected_categories,
-            key=f"project_categories_f3"
+            key=f"project_categories_f4"
         )
         st.markdown(
             """
@@ -1065,43 +1106,8 @@ with col3:
             from the Indian Art Music Raga Recognition Dataset, using an audio-to-audio continuation framework.
             The goal is to generate stylistically coherent Carnatic continuations. 
         """)
-
-with col1:
-    # ===== SEMANTIC EVALUATION (moved from col2) =====
-    with st.container(border=True, height=550):
-        st.markdown(
-            f"""
-            <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin-bottom: 0;">
-              <div><span class="highlight-name">NLP for Semantic Evaluation</span></div>
-            </h4>
-            """,
-            unsafe_allow_html=True,
-        )
-        img_path = BASE_DIR / "images" / "nlp.jpg"
-        st.image(img_path, use_container_width=True)
-        selected_categories = ["Deep Learning", "NLP", "Fine-Tuning", "Transfer Learning"]
-        categories = st.pills(
-            "",
-            selected_categories,
-            selection_mode="multi",
-            default=selected_categories,
-            key=f"project_categories_f4"
-        )
-        st.markdown(
-            """
-            <a href="https://github.com/sundarram1608/nlp_projects.git" target="_blank" class="t-link">↗︎ Code Repo</a> - for more details.
-            """,
-            unsafe_allow_html=True,
-        )
-        st.markdown("""
-            This project involved solving certain Semeval shared tasks of 2019, 2020 and 2021, including Semantic Textual Similarity, OffensEval, MeasEval & ComVe. 
-            The tasks involved NLP techniques of Text Preprocessing, Text Similarity, Text Classification and Sequence Processing.
-            Concepts of GloVe (word embeddings), Word Mover's Distance, Cosine Similarities, Logistic Regression, Recurrent Neural Networks (RNNs), Convolutional Neural Networks (CNNs) and Fine-tuning of Pre-trained Language models like BERT and RoBERTa were applied.
-        """)
-
-
+                
 with col2:
-    # ===== CARNATIC MUSIC RAGA IDENTIFICATION (moved from row 1, col3) =====
     with st.container(border=True, height=550):
         st.markdown(
             f"""
@@ -1131,6 +1137,39 @@ with col2:
             This project leverages MIR techniques to extract and analyze Carnatic audio for 8 melakartha ragas, 
             followed by building a fusion deep learning model (CNN+LSTM) for Raga classification.
         """)
+
+with col3:
+    with st.container(border=True, height=550):
+        st.markdown(
+            f"""
+            <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin-bottom: 0;">
+              <div><span class="highlight-name">NLP for Semantic Evaluation</span></div>
+            </h4>
+            """,
+            unsafe_allow_html=True,
+        )
+        img_path = BASE_DIR / "images" / "nlp.jpg"
+        st.image(img_path, use_container_width=True)
+        selected_categories = ["Deep Learning", "NLP", "Fine-Tuning", "Transfer Learning"]
+        categories = st.pills(
+            "",
+            selected_categories,
+            selection_mode="multi",
+            default=selected_categories,
+            key=f"project_categories_f6"
+        )
+        st.markdown(
+            """
+            <a href="https://github.com/sundarram1608/nlp_projects.git" target="_blank" class="t-link">↗︎ Code Repo</a> - for more details.
+            """,
+            unsafe_allow_html=True,
+        )
+        st.markdown("""
+            This project involved solving certain Semeval shared tasks of 2019, 2020 and 2021, including Semantic Textual Similarity, OffensEval, MeasEval & ComVe. 
+            The tasks involved NLP techniques of Text Preprocessing, Text Similarity, Text Classification and Sequence Processing.
+            Concepts of GloVe (word embeddings), Word Mover's Distance, Cosine Similarities, Logistic Regression, Recurrent Neural Networks (RNNs), Convolutional Neural Networks (CNNs) and Fine-tuning of Pre-trained Language models like BERT and RoBERTa were applied.
+        """)
+
 
 # -----------------------------
 # ALL PROJECTS
