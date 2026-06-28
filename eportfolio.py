@@ -965,7 +965,7 @@ st.markdown(
 
 st.markdown(
               """            
-              <span style="alignment: center; font-size: 1.2rem; color: #b3b5b4;">Applied AI projects</span>
+              <span style="alignment: center; font-size: 1.2rem; color: #b3b5b4;">Applied AI</span>
               """,
               unsafe_allow_html=True,
           )
@@ -1069,7 +1069,7 @@ with col3:
 
 st.markdown(
               """            
-              <span style="alignment: center; font-size: 1.2rem; color: #b3b5b4;">Foundational Research projects</span>
+              <span style="alignment: center; font-size: 1.2rem; color: #b3b5b4;">Foundational Research</span>
               """,
               unsafe_allow_html=True,
           )
