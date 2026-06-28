@@ -1515,7 +1515,7 @@ with col1:
 
 
 with col2:
-  with st.container(border=True, height=220, horizontal_alignment="center"):
+  with st.container(border=True, height=550, horizontal_alignment="center"):
     st.markdown(
                 f"""
                 <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin: 0 0 -1px 0;line-height: 1.2;">
@@ -1552,7 +1552,7 @@ with col2:
 
 
 with col3:
-  with st.container(border=True, height=220, horizontal_alignment="center"):
+  with st.container(border=True, height=550, horizontal_alignment="center"):
     st.markdown(
                 f"""
                 <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin: 0 0 -1px 0;line-height: 1.2;">
@@ -1587,7 +1587,7 @@ with col3:
     
     
 with col1:
-  with st.container(border=True, height=220, horizontal_alignment="center"):
+  with st.container(border=True, height=550, horizontal_alignment="center"):
     st.markdown(
                 f"""
                 <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin: 0 0 -1px 0;line-height: 1.2;">
@@ -1621,7 +1621,7 @@ with col1:
               )
 
 with col2:
-  with st.container(border=True, height=220, horizontal_alignment="center"):
+  with st.container(border=True, height=550, horizontal_alignment="center"):
     st.markdown(
                 f"""
                 <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin: 0 0 -1px 0;line-height: 1.2;">
@@ -1655,7 +1655,7 @@ with col2:
               )
 
 with col3:
-  with st.container(border=True, height=220, horizontal_alignment="center"):
+  with st.container(border=True, height=550, horizontal_alignment="center"):
     st.markdown(
                 f"""
                 <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin: 0 0 -1px 0;line-height: 1.2;">
@@ -1690,7 +1690,7 @@ with col3:
 
 
 with col2:
-  with st.container(border=True, height=220, horizontal_alignment="center"):
+  with st.container(border=True, height=550, horizontal_alignment="center"):
     st.markdown(
                 f"""
                 <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin: 0 0 -1px 0;line-height: 1.2;">
