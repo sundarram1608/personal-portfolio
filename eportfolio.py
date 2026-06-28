@@ -1459,7 +1459,7 @@ st.write("")
 st.markdown(
               """            
               <div style="text-align:center; padding: 60px 0 60px 0; scroll-margin-top: 90px;">
-              <h2>Certifications</h2>
+              <h2>Certifications & Badges</h2>
               </div>
               """,
               unsafe_allow_html=True,
