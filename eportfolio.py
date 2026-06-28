@@ -1924,7 +1924,7 @@ st.divider()
 st.markdown(
             """
             <div style="text-align:center; opacity:0.7; font-size:1rem;">
-                ⓒ May 2026 ⊙ Sundar Ram Subramanian ⊙ Built with Streamlit
+                © Jun 2026 Sundar Ram Subramanian • Engineering Trustworthy AI Systems • Built with Streamlit
             </div>
             """,
             unsafe_allow_html=True,
