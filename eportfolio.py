@@ -1510,8 +1510,8 @@ with col1:
                 """,
                 unsafe_allow_html=True,
             )
-              img_path = BASE_DIR / "images" / "certibmagenticrag.jpeg"
-              st.image(img_path, use_container_width=True)
+        img_path = BASE_DIR / "images" / "certibmagenticrag.jpg"
+        st.image(img_path, use_container_width=True)
 
     selected_categories = ["Agentic Design", "Tool Use", "Evaluate and optimize AI systems"]
     categories = st.pills(
