@@ -1524,7 +1524,7 @@ with col1:
       st.markdown(
                     """
                     <div style="text-align: center;">
-                        <a href="https://learn.deeplearning.ai/certificates/674d7e76-8bb5-42b8-9b0f-c0edc77db81d"
+                        <a href="https://coursera.org/share/038cc2a6e4ab660ab5c48064ead91aae"
                           target="_blank"
                           class="t-link">
                             ↗︎ View Credentials
