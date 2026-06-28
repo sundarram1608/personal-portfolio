@@ -1737,20 +1737,20 @@ BADGES_DIR = BASE_DIR / "images"
 #       "badgeibm-rag-and-agentic-ai-professional-certificate.1-2".
 #       Every other badge is a plain ".png", so it is set to ".png" here.
 #       If your actual file is named differently, edit this one string.
-badge_featured = "badgeibm-rag-and-agentic-ai-professional-certificate.png"
+badge_featured = "badgeibm-rag-and-agentic-ai-professional-certificate.jpg"
  
 badge_row_2 = [
-    "badgebuild-ai-agents-using-mcp.png",
-    "badgefundamentals-of-building-ai-agents.png",
-    "badgeagentic-ai-with-langchain-and-langgraph.png",
-    "badgebuild-multimodal-generative-ai-applications.png",
+    "badgebuild-ai-agents-using-mcp.jpg",
+    "badgefundamentals-of-building-ai-agents.jpg",
+    "badgeagentic-ai-with-langchain-and-langgraph.jpg",
+    "badgebuild-multimodal-generative-ai-applications.jpg",
 ]
  
 badge_row_3 = [
-    "badgeadvanced-rag-with-vector-databases-and-retrievers.png",
-    "badgevector-databases-for-rag-an-introduction.png",
-    "badgebuild-rag-applications-get-started.png",
-    "badgedevelop-generative-ai-applications-get-started.png",
+    "badgeadvanced-rag-with-vector-databases-and-retrievers.jpg",
+    "badgevector-databases-for-rag-an-introduction.jpg",
+    "badgebuild-rag-applications-get-started.jpg",
+    "badgedevelop-generative-ai-applications-get-started.jpg",
 ]
  
 # --- Section heading -----------------------------------------------------------------
