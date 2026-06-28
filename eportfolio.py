@@ -1470,35 +1470,35 @@ col1, col2, col3 = st.columns(3, vertical_alignment="top")
 
 with col1:
 ###########################################################################
-    with st.container(border=True, height=550):
-        st.markdown(
-            f"""
-            <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin-bottom: 0;">
-              <div><span class="highlight-name">Multi Agentic Merchandiser</span></div>
-            </h4>
-            """,
-            unsafe_allow_html=True,
-        )
-        img_path = BASE_DIR / "images" / "agentic_ai.jpg"
-        st.image(img_path, use_container_width=True)
-        selected_categories = ["Multi Agentic Workflow", "Agentic Evals", "Agentic Reflection", "Agentic Tool Use", "Multi Agent Orchestration","Agentic Planning","Generative AI", "Non Purchaser Analytics"]
-        categories = st.pills(
-            "",
-            selected_categories,
-            selection_mode="multi",
-            default=selected_categories,
-            key=f"project_categories_f1"
-        )
-        st.markdown(
-            """
-            <a href="https://github.com/sundarram1608/Multi-Agentic_Merchandiser-NonPurchaser_Analytics.git" target="_blank" class="t-link">↗︎ Code Repo</a> - for more details.
-            """,
-            unsafe_allow_html=True,
-        )
-        st.markdown("""
-            Leveraged Multi Agentic AI Workflow to build a merchandiser copilot that provide insights and recommendations from Non purchasers. 
-            Built with a live streamlit interface with Agentic chat environment and recommendations with Agentic reasoning, evals, reviews, traceability, Privacy, Security and .
-        """)
+    # with st.container(border=True, height=550):
+    #     st.markdown(
+    #         f"""
+    #         <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin-bottom: 0;">
+    #           <div><span class="highlight-name">Multi Agentic Merchandiser</span></div>
+    #         </h4>
+    #         """,
+    #         unsafe_allow_html=True,
+    #     )
+    #     img_path = BASE_DIR / "images" / "agentic_ai.jpg"
+    #     st.image(img_path, use_container_width=True)
+    #     selected_categories = ["Multi Agentic Workflow", "Agentic Evals", "Agentic Reflection", "Agentic Tool Use", "Multi Agent Orchestration","Agentic Planning","Generative AI", "Non Purchaser Analytics"]
+    #     categories = st.pills(
+    #         "",
+    #         selected_categories,
+    #         selection_mode="multi",
+    #         default=selected_categories,
+    #         key=f"project_categories_f1"
+    #     )
+    #     st.markdown(
+    #         """
+    #         <a href="https://github.com/sundarram1608/Multi-Agentic_Merchandiser-NonPurchaser_Analytics.git" target="_blank" class="t-link">↗︎ Code Repo</a> - for more details.
+    #         """,
+    #         unsafe_allow_html=True,
+    #     )
+    #     st.markdown("""
+    #         Leveraged Multi Agentic AI Workflow to build a merchandiser copilot that provide insights and recommendations from Non purchasers. 
+    #         Built with a live streamlit interface with Agentic chat environment and recommendations with Agentic reasoning, evals, reviews, traceability, Privacy, Security and .
+    #     """)
 
 ###########################################################################
   with st.container(border=True, height=550, horizontal_alignment="center"):
