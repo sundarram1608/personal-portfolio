@@ -1734,7 +1734,7 @@ BADGES_DIR = BASE_DIR / "images"
  
 # Badge filenames, grouped by row.
 # NOTE: The first (top, centered) badge was provided as
-#       "badgeibm-rag-and-agentic-ai-professional-certificate.1-2".
+#       "badgeibm-rag-and-agentic-ai-professional-certificate".
 #       Every other badge is a plain ".png", so it is set to ".png" here.
 #       If your actual file is named differently, edit this one string.
 badge_featured = "badgeibm-rag-and-agentic-ai-professional-certificate.jpg"
