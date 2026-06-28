@@ -1776,7 +1776,7 @@ with st.container(border=True):
  
     # Row 1: one badge centered over the middle two of four positions.
     # [1, 2, 1] -> the middle column spans the central 50% (positions 2 & 3).
-    _, mid, _ = st.columns([1, 2, 1])
+    _, mid, _ = st.columns([1.5, 1, 1.5])
     with mid:
         st.image(BADGES_DIR / badge_featured, use_container_width=False)
  
