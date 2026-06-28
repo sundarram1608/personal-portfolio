@@ -1464,7 +1464,15 @@ st.markdown(
               """,
               unsafe_allow_html=True,
           )
-
+# --- Section heading -----------------------------------------------------------------
+st.markdown(
+              """
+              <div style="text-align:center; padding: 10px 0 26px 0;">
+                <h3 style="font-size:1.5rem; font-weight:650; margin:0; color:#fcfcfc;">Professional Certifications</h3>
+              </div>
+              """,
+              unsafe_allow_html=True,
+          )
 
 col1, col2, col3 = st.columns(3, vertical_alignment="top")
 
@@ -1770,7 +1778,7 @@ with st.container(border=True):
     # [1, 2, 1] -> the middle column spans the central 50% (positions 2 & 3).
     _, mid, _ = st.columns([1, 2, 1])
     with mid:
-        st.image(BADGES_DIR / badge_featured, use_container_width=True)
+        st.image(BADGES_DIR / badge_featured, use_container_width=False)
  
     # Row 2: four equi-spaced badges
     cols = st.columns(4)
