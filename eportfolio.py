@@ -1515,7 +1515,7 @@ with col1:
 
 
 with col2:
-  with st.container(border=True, height=220, horizontal_alignment="center"):
+  with st.container(border=True, height=550, horizontal_alignment="center"):
     st.markdown(
                 f"""
                 <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin: 0 0 -1px 0;line-height: 1.2;">
@@ -1552,7 +1552,7 @@ with col2:
 
 
 with col3:
-  with st.container(border=True, height=220, horizontal_alignment="center"):
+  with st.container(border=True, height=550, horizontal_alignment="center"):
     st.markdown(
                 f"""
                 <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin: 0 0 -1px 0;line-height: 1.2;">
@@ -1587,7 +1587,7 @@ with col3:
     
     
 with col1:
-  with st.container(border=True, height=220, horizontal_alignment="center"):
+  with st.container(border=True, height=550, horizontal_alignment="center"):
     st.markdown(
                 f"""
                 <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin: 0 0 -1px 0;line-height: 1.2;">
@@ -1621,7 +1621,7 @@ with col1:
               )
 
 with col2:
-  with st.container(border=True, height=220, horizontal_alignment="center"):
+  with st.container(border=True, height=550, horizontal_alignment="center"):
     st.markdown(
                 f"""
                 <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin: 0 0 -1px 0;line-height: 1.2;">
@@ -1655,7 +1655,7 @@ with col2:
               )
 
 with col3:
-  with st.container(border=True, height=220, horizontal_alignment="center"):
+  with st.container(border=True, height=550, horizontal_alignment="center"):
     st.markdown(
                 f"""
                 <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin: 0 0 -1px 0;line-height: 1.2;">
@@ -1690,7 +1690,7 @@ with col3:
 
 
 with col2:
-  with st.container(border=True, height=220, horizontal_alignment="center"):
+  with st.container(border=True, height=550, horizontal_alignment="center"):
     st.markdown(
                 f"""
                 <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin: 0 0 -1px 0;line-height: 1.2;">
@@ -1724,56 +1724,35 @@ with col2:
 
         
 
+
 # -----------------------------
 # BADGES
 # -----------------------------
-
+ 
 # Folder holding the badge .png files (same folder as the certification images)
 BADGES_DIR = BASE_DIR / "images"
-
-# --- Badge filenames, grouped by row -------------------------------------------------
-# NOTE: The first (featured) badge was provided as
+ 
+# Badge filenames, grouped by row.
+# NOTE: The first (top, centered) badge was provided as
 #       "badgeibm-rag-and-agentic-ai-professional-certificate.1-2".
-#       Every other badge is a plain ".png", so it is set to ".png" below.
-#       If your actual file is named differently, just edit this one string.
+#       Every other badge is a plain ".png", so it is set to ".png" here.
+#       If your actual file is named differently, edit this one string.
 badge_featured = "badgeibm-rag-and-agentic-ai-professional-certificate.png"
-
+ 
 badge_row_2 = [
     "badgebuild-ai-agents-using-mcp.png",
     "badgefundamentals-of-building-ai-agents.png",
     "badgeagentic-ai-with-langchain-and-langgraph.png",
     "badgebuild-multimodal-generative-ai-applications.png",
 ]
-
+ 
 badge_row_3 = [
     "badgeadvanced-rag-with-vector-databases-and-retrievers.png",
     "badgevector-databases-for-rag-an-introduction.png",
     "badgebuild-rag-applications-get-started.png",
     "badgedevelop-generative-ai-applications-get-started.png",
 ]
-
-
-def _badge_cell(filename, featured=False):
-    """Return one grid cell with a base64-embedded badge image.
-    Falls back to a labelled placeholder if the file is missing, so a wrong
-    filename never crashes the page."""
-    cell_class = "badge-cell badge-featured" if featured else "badge-cell"
-    fpath = BADGES_DIR / filename
-    try:
-        with open(fpath, "rb") as f:
-            data = base64.b64encode(f.read()).decode()
-        return (
-            f'<div class="{cell_class}">'
-            f'<img src="data:image/png;base64,{data}" alt="{filename}">'
-            f'</div>'
-        )
-    except FileNotFoundError:
-        return (
-            f'<div class="{cell_class} badge-missing" title="Missing file: {filename}">'
-            f'<span>{filename}</span></div>'
-        )
-
-
+ 
 # --- Section heading -----------------------------------------------------------------
 st.markdown(
               """
@@ -1783,69 +1762,27 @@ st.markdown(
               """,
               unsafe_allow_html=True,
           )
-
-# --- Badge-grid styling --------------------------------------------------------------
-st.markdown(
-              """
-              <style>
-                .badges-grid{ display: flex; flex-direction: column; gap: 30px; padding: 10px 6px; }
-                .badge-row{
-                              display: grid;
-                              grid-template-columns: repeat(4, 1fr);
-                              gap: 24px;
-                              align-items: center;
-                              justify-items: center;
-                            }
-                .badge-cell{ display: flex; justify-content: center; align-items: center; width: 100%; }
-                .badge-cell img{
-                                  width: 100%;
-                                  max-width: 150px;
-                                  height: auto;
-                                  transition: transform 0.2s ease;
-                                }
-                .badge-cell img:hover{ transform: translateY(-4px) scale(1.04); }
-
-                /* Row 1: single badge, centered, covering the 2nd and 3rd positions */
-                .badge-featured{ grid-column: 2 / 4; }
-                .badge-featured img{ max-width: 190px; }
-
-                /* Placeholder shown only when a filename does not match a file on disk */
-                .badge-missing{
-                                  min-height: 120px; padding: 10px;
-                                  border: 1px dashed rgba(255,255,255,0.35);
-                                  border-radius: 12px; color: #f5c542; font-size: 0.72rem;
-                                  text-align: center; word-break: break-all;
-                                }
-
-                /* Comfortable layout on small screens */
-                @media (max-width: 640px){
-                  .badge-row{ grid-template-columns: repeat(2, 1fr); }
-                  .badge-featured{ grid-column: 1 / 3; }
-                }
-              </style>
-              """,
-              unsafe_allow_html=True,
-          )
-
+ 
 # --- Single full-width container holding all 9 badges --------------------------------
 with st.container(border=True):
-    st.markdown(
-                f"""
-                <div class="badges-grid">
-                  <div class="badge-row">
-                    {_badge_cell(badge_featured, featured=True)}
-                  </div>
-                  <div class="badge-row">
-                    {''.join(_badge_cell(b) for b in badge_row_2)}
-                  </div>
-                  <div class="badge-row">
-                    {''.join(_badge_cell(b) for b in badge_row_3)}
-                  </div>
-                </div>
-                """,
-                unsafe_allow_html=True,
-            )
-
+ 
+    # Row 1: one badge centered over the middle two of four positions.
+    # [1, 2, 1] -> the middle column spans the central 50% (positions 2 & 3).
+    _, mid, _ = st.columns([1, 2, 1])
+    with mid:
+        st.image(BADGES_DIR / badge_featured, use_container_width=True)
+ 
+    # Row 2: four equi-spaced badges
+    cols = st.columns(4)
+    for col, filename in zip(cols, badge_row_2):
+        with col:
+            st.image(BADGES_DIR / filename, use_container_width=True)
+ 
+    # Row 3: four equi-spaced badges
+    cols = st.columns(4)
+    for col, filename in zip(cols, badge_row_3):
+        with col:
+            st.image(BADGES_DIR / filename, use_container_width=True)
 
 # -----------------------------
 # CONTACT
