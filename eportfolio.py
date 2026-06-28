@@ -1074,6 +1074,7 @@ st.markdown(
               unsafe_allow_html=True,
           )
 
+col1, col2, col3 = st.columns(3, vertical_alignment="top")
 with col1:
     with st.container(border=True, height=550):
         st.markdown(
