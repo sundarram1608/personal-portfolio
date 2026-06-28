@@ -983,7 +983,7 @@ with col1:
             """,
             unsafe_allow_html=True,
         )
-        img_path = BASE_DIR / "images" / "musicgen.jpg"
+        img_path = BASE_DIR / "images" / "fdm.jpg"
         st.image(img_path, use_container_width=True)
         selected_categories = ["Multi-Agent Systems", "Agentic AI Orchestration", "Model Context Protocol (MCP)", "Retrieval-Augmented Generation (RAG)", "AI Agent Evaluation", "Tool Calling", "Observability", "Semantic Chunking"]
         categories = st.pills(
