@@ -487,7 +487,7 @@ st.markdown(
                       Sundar Ram Subramanian
                   </h1>
                   <h3 style="font-weight:600; color:#fcfcfc; font-size:3rem;">
-                      <span class="highlight-name">AI Engineer</span>
+                      <span class="highlight-name">Data Science and Applied AI</span>
                   </h3>               
                   <h4 style="font-size: 2rem; font-weight: 300;">
                       Leveraging <span style="color: #f5c542; font-weight: 400;">Agentic AI, Gen AI and Deep Learning</span> techniques 
