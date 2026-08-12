@@ -1859,7 +1859,7 @@ st.markdown(
                         Email
                     </a>
                     <!-- View CV button -->
-                <a href="https://drive.google.com/file/d/1zuzFBdKJ_H95hqCs49_e2txxWwdA5iu9/view?usp=share_link"
+                <a href="https://drive.google.com/drive/folders/17apTI3N8BNSxbCasKDcmZS77oUuk1vCw?usp=share_link"
                    target="_blank"
                    rel="noopener noreferrer"
                    class="cta-button-resume">
