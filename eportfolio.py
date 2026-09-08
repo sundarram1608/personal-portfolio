@@ -1503,7 +1503,8 @@ st.markdown(
               unsafe_allow_html=True,
           )
 
-col4, col5 = st.columns(2, vertical_alignment="top")
+spacer_left, col4, col5, spacer_right = st.columns([1, 2, 2, 1], vertical_alignment="top")
+# col4, col5 = st.columns(2, vertical_alignment="top")
 col1, col2, col3 = st.columns(3, vertical_alignment="top")
 
 with col4:
