@@ -608,22 +608,26 @@ st.markdown(
         <div class="t-role">Graduate Researcher - Deep Learning</div>
         <div class="t-org">The University of Arizona</div>
         <p class="t-desc">
-          - As a Graduate Researcher at the University of Arizona, I collaborated with faculty across Deep Learning, Information Retrieval, and Cloud Computing to design production-oriented AI systems and advance research in Generative AI, Agentic AI, NLP, Computer Vision, and Foundation Models. My work focused on building reliable AI applications by combining LLM reasoning, retrieval, evaluation, observability, and cloud-native deployment.
+          As a Graduate Researcher at the University of Arizona, I collaborated with faculty across Machine Learning, Deep Learning, Information Retrieval, and Cloud Computing to design production-oriented AI systems and advance research in Generative AI, Agentic AI, NLP, Computer Vision, and Foundation Models. My work focused on building reliable AI applications by combining LLM reasoning, retrieval, evaluation, observability, and cloud-native deployment.
+          </p>
+          
+        <p class="t-desc">
+          &nbsp;
           </p>
         <p class="t-desc">
           Key Research Contributions include:
           </p>
         <p class="t-desc">
-          - Designed and implemented a Shopfloor AI Service Assistant using a 12-agent LangGraph architecture integrating RAG, MCP, MySQL, ChromaDB, human-in-the-loop approvals, evaluation pipelines, governance, guardrails, and observability through LangSmith to automate machine troubleshooting, maintenance, incident management and service workflows.
-          </p>
-        <p class="t-desc">
-          - Designed and built a production-style Multi-Agent AI Decision Support System to assist merchandising teams in data-driven assortment planning, targeting approximately 30% sales improvement.
+          - Built an Agentic voice travel booking system that profiles user preferences, integrating a voice layer, Sabre's MCP server, PayPal, and LandingAI document extraction, enabling end-to-end trip search, booking, modification, and cancellation through natural conversation.
           </p>
         <p class="t-desc">
           - Fine-tuned Meta’s MusicGen foundation music model using LoRA (PEFT) for cultural adaptation to Carnatic music while designing comprehensive quantitative and human evaluation pipelines, achieving approximately 70% perceptual acceptance.
           </p>
         <p class="t-desc">
           - Built NLP pipelines leveraging GloVe embeddings, traditional machine learning, and transformer-based models including BERT to solve multiple SemEval benchmark tasks.
+          </p>
+        <p class="t-desc">
+          - Built a credit-risk classification model on the German Credit dataset to predict loan defaults, benchmarking Logistic Regression, Random Forest, Gradient Boosting, and AdaBoost with cross-validation and GridSearchCV tuning and combining top models into a voting ensemble (~0.81 AUC); guided model selection by the recall–precision tradeoff (maximizing default capture vs. minimizing false rejections).
           </p>
         <p class="t-desc">
           - Developed a CNN-LSTM architecture for Carnatic Raga classification and investigated the representational capabilities and limitations of audio embeddings for music understanding.
@@ -668,8 +672,8 @@ st.markdown(
       </div>
 
       <div class="t-item work">
-        <div class="t-date">Oct 2023 - Jul 2025</div>
-        <div class="t-role">Assistant Manager - Data Science & Advanced Analytics</div>
+        <div class="t-date">Sept 2023 - Jul 2025</div>
+        <div class="t-role">Assistant Manager - AI, Data Science & Advanced Analytics</div>
         <div class="t-org">Titan Company Limited</div>
         <p class="t-desc">
             Spearheaded the enterprise Data Science Centre of Excellence, driving the end-to-end design, development, deployment, and adoption of AI, Generative AI, and Machine Learning solutions across merchandising, marketing, manufacturing, and business operations. Built production-ready AI systems using Python, SQL, OpenAI APIs, AWS, and Streamlit, spanning data curation, LLM pipelines, predictive modeling, analytics, and decision-support applications. Partnered with senior stakeholders to translate business problems into AI roadmaps while mentoring junior data scientists and leading cross-functional solution delivery.
@@ -681,17 +685,33 @@ st.markdown(
             Representative AI initiatives include:
           </p>
         <p class="t-desc">
+          - <span class="highlight-key">Manufacturing (Agentic AI):</span> Designed and implemented a Shop floor AI Service Assistant using a multi-agent LangGraph orchestration integrating RAG, MCP, MySQL, ChromaDB, human-in-the-loop approvals, evaluation pipelines, governance, guardrails, and observability through LangSmith to automate machine troubleshooting, maintenance, incident management and service workflows.
+          </p>
+          <p class="t-desc">
+          &nbsp;
+          </p>
+        <p class="t-desc">
           - <span class="highlight-key">Sentiment Analytics (GenAI):</span> Built and deployed an LLM-powered Sentiment Analytics platform using OpenAI APIs, Streamlit, and AWS Beanstalk to analyze customer feedback and competitive intelligence, improving marketing effectiveness and merchandising decisions by approximately 30%.
           </p>
           <p class="t-desc">
           &nbsp;
           </p>
         <p class="t-desc">
-          - <span class="highlight-key">Merchandise Copilot (GenAI):</span> Designed an AI-powered Merchandise Copilot integrating text and audio feedback analysis using LLMs to optimize product assortment decisions, contributing to approximately 30% sales uplift across retail stores.
+          - <span class="highlight-key">Merchandise Copilot (GenAI):</span> Built and deployed an LLM-powered Sentiment Analytics platform using OpenAI APIs, Streamlit, and AWS Beanstalk to analyze customer feedback and competitive intelligence, improving marketing effectiveness and merchandising decisions by approximately 30%.
           </p>
+        <p class="t-desc">
+          - Designed and deployed an LLM driven Multi Agentic Decision Support System for Jewelry Merchandising to optimize product assortment and drive ~ 30% sales uplift per store
+          </p>
+        <p class="t-desc">
+          - Led product attribution to optimize inventory by demographic segments, driving ~30% annual growth in wedding category sales
+            </p>
+        <p class="t-desc">
+          - Partnered cross-functionally with product and design teams with data-driven insights from sales analytics for new product introduction      
+            </p>  
           <p class="t-desc">
           &nbsp;
           </p>
+
         <p class="t-desc">
           - <span class="highlight-key">Product Annotation and Content generation (GenAI):</span> Developed an automated Product Annotation and Content Generation pipeline using multimodal LLM capabilities to identify jewelry design attributes, generate product descriptions, reduce manual effort by approximately 30 minutes per product, and improve merchandising analytics.
           </p>
@@ -722,33 +742,6 @@ st.markdown(
           <span class="t-tag">Consumer Analytics</span>
           <span class="t-tag">Network Expansion</span>
           <span class="t-tag">Customer Segmentation</span>
-        </div>
-      </div>
-
-      <div class="t-item work">
-        <div class="t-date">Apr 2023 - Sep 2023</div>
-        <div class="t-role">Young Leadership Associate - Data Scientist (Merchandising)</div>
-        <div class="t-org">Titan Company Limited</div>
-        <p class="t-desc">
-            As a Data Scientist within the Merchandising organization, partnered closely with business leaders to combine advanced analytics and machine learning with product strategy and inventory planning.
-          </p>
-          <p class="t-desc">
-          &nbsp;
-          </p>        
-        <p class="t-desc">
-          Key contributions:
-          </p>
-        <p class="t-desc">
-          - Led large-scale product attribution, data curation, and merchandising analytics initiatives to optimize inventory across customer demographic segments, contributing to approximately 30% annual growth in wedding category sales.
-          </p>
-        <p class="t-desc">
-          - Applied sales analytics and customer insights to guide new product introduction strategies, enabling data-driven merchandising decisions across cross-functional product and design teams.
-          </p>
-        <div class="t-tags">
-          <span class="t-tag">Product Annotation</span>
-          <span class="t-tag">Sales Analysis</span>
-          <span class="t-tag">Inventory Optimization</span>
-          <span class="t-tag">Market Research</span>
         </div>
       </div>
 
@@ -1512,9 +1505,46 @@ st.markdown(
               unsafe_allow_html=True,
           )
 
+col4, col5 = st.columns(2, vertical_alignment="top")
 col1, col2, col3 = st.columns(3, vertical_alignment="top")
 
-with col1:
+with col4:
+  with st.container(border=True, height=550, horizontal_alignment="center"):
+      st.markdown(
+                f"""
+                <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin: 0 0 -1px 0;line-height: 1.2;">
+                <span class="highlight-name">Google ADK</span>
+                </h4>
+                """,
+                unsafe_allow_html=True,
+            )
+      img_path = BASE_DIR / "images" / "googleadk.jpg"
+      st.image(img_path, use_container_width=True)
+
+      selected_categories = ["Agentic Design", "Tool Use", "AI Orchestration", "Agentic AI Tools" ]
+      categories = st.pills(
+                              "",
+                              selected_categories,
+                              selection_mode="multi",
+                              default=selected_categories,
+                              key=f"google_adk"
+                          )
+      st.markdown(
+                    """
+                    <div style="text-align: center;">
+                        <a href="https://coursera.org/share/37d06ccf329f55773b0c452297a1ce61"
+                          target="_blank"
+                          class="t-link">
+                            ↗︎ View Credentials
+                        </a>
+                    </div>
+                    """,
+                    unsafe_allow_html=True,
+                )
+
+
+
+with col5:
   with st.container(border=True, height=550, horizontal_alignment="center"):
       st.markdown(
                 f"""
@@ -1560,7 +1590,7 @@ with col1:
     #           )
 
 
-with col2:
+with col1:
   with st.container(border=True, height=550, horizontal_alignment="center"):
     st.markdown(
                 f"""
@@ -1597,7 +1627,7 @@ with col2:
 
 
 
-with col3:
+with col2:
   with st.container(border=True, height=550, horizontal_alignment="center"):
     st.markdown(
                 f"""
@@ -1632,7 +1662,7 @@ with col3:
               )
     
     
-with col1:
+with col3:
   with st.container(border=True, height=550, horizontal_alignment="center"):
     st.markdown(
                 f"""
@@ -1666,7 +1696,7 @@ with col1:
                   unsafe_allow_html=True,
               )
 
-with col2:
+with col1:
   with st.container(border=True, height=550, horizontal_alignment="center"):
     st.markdown(
                 f"""
@@ -1700,7 +1730,7 @@ with col2:
                   unsafe_allow_html=True,
               )
 
-with col3:
+with col2:
   with st.container(border=True, height=550, horizontal_alignment="center"):
     st.markdown(
                 f"""
@@ -1735,7 +1765,7 @@ with col3:
               )
 
 
-with col2:
+with col3:
   with st.container(border=True, height=550, horizontal_alignment="center"):
     st.markdown(
                 f"""
@@ -1924,7 +1954,7 @@ st.divider()
 st.markdown(
             """
             <div style="text-align:center; opacity:0.7; font-size:1rem;">
-                © Jun 2026 Sundar Ram Subramanian • Engineering Trustworthy AI Systems • Built with Streamlit
+                © Sept 2026 Sundar Ram Subramanian • Engineering Trustworthy AI Systems • Built with Streamlit
             </div>
             """,
             unsafe_allow_html=True,
