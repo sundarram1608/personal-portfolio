@@ -710,7 +710,6 @@ st.markdown(
           <p class="t-desc">
           &nbsp;
           </p>
-
         <p class="t-desc">
           - <span class="highlight-key">Product Annotation and Content generation (GenAI):</span> Developed an automated Product Annotation and Content Generation pipeline using multimodal LLM capabilities to identify jewelry design attributes, generate product descriptions, reduce manual effort by approximately 30 minutes per product, and improve merchandising analytics.
           </p>
