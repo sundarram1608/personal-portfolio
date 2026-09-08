@@ -610,7 +610,6 @@ st.markdown(
         <p class="t-desc">
           As a Graduate Researcher at the University of Arizona, I collaborated with faculty across Machine Learning, Deep Learning, Information Retrieval, and Cloud Computing to design production-oriented AI systems and advance research in Generative AI, Agentic AI, NLP, Computer Vision, and Foundation Models. My work focused on building reliable AI applications by combining LLM reasoning, retrieval, evaluation, observability, and cloud-native deployment.
           </p>
-          
         <p class="t-desc">
           &nbsp;
           </p>
