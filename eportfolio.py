@@ -1512,6 +1512,79 @@ with col4:
       st.markdown(
                 f"""
                 <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin: 0 0 -1px 0;line-height: 1.2;">
+                <span class="highlight-name">AWS Cloud Practitioner</span>
+                </h4>
+                """,
+                unsafe_allow_html=True,
+            )
+      img_path = BASE_DIR / "images" / "cloudpractitioner.jpg"
+      st.image(img_path, use_container_width=True)
+
+      selected_categories = ["Cloud Computing", "Cloud Platform", "Cloud Services", "Cloud ARchitecture", "CI/CD" ]
+      categories = st.pills(
+                              "",
+                              selected_categories,
+                              selection_mode="multi",
+                              default=selected_categories,
+                              key=f"cloud_practitioner"
+                          )
+      st.markdown(
+                    """
+                    <div style="text-align: center;">
+                        <a href="https://www.credly.com/badges/10629144-bf76-45ab-8ca9-2d1fd9826c87/public_url"
+                          target="_blank"
+                          class="t-link">
+                            ↗︎ View Credentials
+                        </a>
+                    </div>
+                    """,
+                    unsafe_allow_html=True,
+                )
+
+
+
+with col5:
+  with st.container(border=True, height=550, horizontal_alignment="center"):
+      st.markdown(
+                f"""
+                <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin: 0 0 -1px 0;line-height: 1.2;">
+                <span class="highlight-name">AWS AI Practitioner</span>
+                </h4>
+                """,
+                unsafe_allow_html=True,
+            )
+      img_path = BASE_DIR / "images" / "aipractitioner.jpg"
+      st.image(img_path, use_container_width=True)
+
+      selected_categories = ["AI/ ML on AWS", "Bedrock", "SageMaker", "Glue"]
+      categories = st.pills(
+                              "",
+                              selected_categories,
+                              selection_mode="multi",
+                              default=selected_categories,
+                              key=f"ai_practitioner"
+                          )
+      st.markdown(
+                    """
+                    <div style="text-align: center;">
+                        <a href="https://www.credly.com/badges/8eb6954e-2435-480e-afbc-c870c81b4d79/public_url"
+                          target="_blank"
+                          class="t-link">
+                            ↗︎ View Credentials
+                        </a>
+                    </div>
+                    """,
+                    unsafe_allow_html=True,
+                )
+
+
+
+
+with col4:
+  with st.container(border=True, height=550, horizontal_alignment="center"):
+      st.markdown(
+                f"""
+                <h4 style="text-align:center;font-size: 1.8rem; font-weight: 500; margin: 0 0 -1px 0;line-height: 1.2;">
                 <span class="highlight-name">Google ADK</span>
                 </h4>
                 """,
@@ -1567,7 +1640,7 @@ with col5:
       st.markdown(
                     """
                     <div style="text-align: center;">
-                        <a href="https://learn.deeplearning.ai/certificates/674d7e76-8bb5-42b8-9b0f-c0edc77db81d"
+                        <a href="https://coursera.org/share/038cc2a6e4ab660ab5c48064ead91aae"
                           target="_blank"
                           class="t-link">
                             ↗︎ View Credentials
