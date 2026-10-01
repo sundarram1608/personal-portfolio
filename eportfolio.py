@@ -1921,7 +1921,7 @@ with st.container(border=True):
     # [1, 2, 1] -> the middle column spans the central 50% (positions 2 & 3).
     _, col1, col2, col3, _ = st.columns([0.5, 1, 1, 1, 0.5])
 
-    for col, image in zip([col1, col2, col3], images_featured):
+    for col, image in zip([col1, col2, col3], badge_featured):
         with col:
             st.image(BADGES_DIR / image, use_container_width=False)
     # Row 2: four equi-spaced badges
