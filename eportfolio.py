@@ -1517,7 +1517,7 @@ with col4:
                 """,
                 unsafe_allow_html=True,
             )
-      img_path = BASE_DIR / "images" / "cloudpractitioner.jpg"
+      img_path = BASE_DIR / "images" / "certcloudpractitioner.jpg"
       st.image(img_path, use_container_width=True)
 
       selected_categories = ["Cloud Computing", "Cloud Platform", "Cloud Services", "Cloud ARchitecture", "CI/CD" ]
@@ -1553,7 +1553,7 @@ with col5:
                 """,
                 unsafe_allow_html=True,
             )
-      img_path = BASE_DIR / "images" / "aipractitioner.jpg"
+      img_path = BASE_DIR / "images" / "certaipractitioner.jpg"
       st.image(img_path, use_container_width=True)
 
       selected_categories = ["AI/ ML on AWS", "Bedrock", "SageMaker", "Glue"]
