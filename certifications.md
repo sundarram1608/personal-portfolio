@@ -1,0 +1,18 @@
+## Certifications and Courses
+
+- [Excel: Introduction to Formulas and Functions](https://www.linkedin.com/learning/certificates/4bf6af93c9ff37e7ac36ab4ae469659f691ab54283e8d5263d5789df944edbdc?trk=backfilled_certificate)
+- [Thinking Like a Leader (2013)](https://www.linkedin.com/learning/certificates/6e897dc7c8115c7b4394d0fdb5b94849c4a6b2d1beeedc1ca5f6a13b36eff6a1?trk=backfilled_certificate)
+- [Extreme Productivity (Blinkist Summary)](https://www.linkedin.com/learning/certificates/a9acc16e7119e8ef9d75cc50c84ed7b81cd6852c4ab1abe40e2d9721b7827924?trk=backfilled_certificate)
+- [Excel 2010: Macros](https://www.linkedin.com/learning/certificates/cbad132b0f8d3af2fe560ed8f7c0f02314cd4c2251f4f4dc36ce7ebb93285492?trk=backfilled_certificate)
+- [Decision-Making Strategies](https://www.linkedin.com/learning/certificates/68c6f2f753df09d4decfa84ed75dc36322b80a03a60b7d69c72e8247de01ca80?trk=backfilled_certificate)
+- [Excel: Managing and Analyzing Data](https://www.linkedin.com/learning/certificates/dab0dbef23c5324b05dad2dc2c1ead8c68bbb7de87f61f034d6b56e6e8f560fd)
+- [Managing Stress for Positive Change](https://www.linkedin.com/learning/certificates/18d74b115ddb12813e57ededd8f40a0d3131ccd9d914783b533ca1eb165bf304)
+- [How to Be an Adaptable Employee during Change and Uncertainty](https://www.linkedin.com/learning/certificates/9fc97a909d502c08a3cfd57232c66dbe9779637f1822ecaea03bd1b6a3a86c70)
+- [Increase Your Flexible Thinking Skills](https://www.linkedin.com/learning/certificates/0d53ddee0754e4a2df4ece716e7f90f1f488d50bf5f3de9208697991e471accc)
+- [Manage Change and Adapt with Less Stress](https://www.linkedin.com/learning/certificates/fcf01b6a873c247cefc5b2f59ed892bca744ba9d72b95d6c61005886c76c70f9)
+- [Using Emotions to Leverage and Accelerate Change: A Guide for Leaders](https://www.linkedin.com/learning/certificates/51cdf08a5a5475b8633f70750c6e4873af2ff3137f4ac442b542ebc31a4a6b99)
+- [IBM Certification – GitHub](https://coursera.org/verify/3U8U3GYQIM2L)
+- [Linear Algebra for Machine Learning and Data Science](https://www.coursera.org/account/accomplishments/verify/ZKO57ZJ1V9US)
+- [Calculus for Machine Learning and Data Science](https://coursera.org/verify/5MXCZVZOOM2T)
+- [Probability & Statistics for Machine Learning & Data Science](https://coursera.org/verify/PZJLEW1P7CFU)
+- [Fundamentals of Accelerated Computing with CUDA Python](https://learn.nvidia.com/certificates?id)
