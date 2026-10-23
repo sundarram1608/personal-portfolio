@@ -744,7 +744,7 @@ st.markdown(
       </div>
 
       <div class="t-item work">
-        <div class="t-date">Apr 2023 - Mar 2024</div>
+        <div class="t-date">Apr 2023 - Jul 2025</div>
         <div class="t-role">Young Leadership Program</div>
         <div class="t-org">Titan Company Limited</div>
         <p class="t-desc">
